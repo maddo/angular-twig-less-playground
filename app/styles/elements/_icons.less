@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Icons';
+  src: url('/fonts/ChessGlyph-Regular.eot');
+  src: url('/fonts/ChessGlyph-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('/fonts/ChessGlyph-Regular.woff') format('woff'),  
+  url('/fonts/ChessGlyph-Regular.ttf') format('truetype'),  
+  url('/fonts/ChessGlyph-Regular.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'Icons';
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.icon-twitter {
+    &:before { content: 'F'; }
+  }
+
+  &.icon-facebook {
+    &:before { content: 'S'; }
+  }
+
+  &.icon-facebook-square {
+    &:before { content: 'D'; }
+  }
+
+  &.icon-reddit {
+    &:before { content: '±'; }
+  }
+
+  &.icon-gplus {
+    &:before { content: '®'; }
+  }
+}
+

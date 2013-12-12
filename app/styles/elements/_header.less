@@ -1,17 +1,20 @@
 .header {
   height: 60px;
   background: #182f36;
+
+  a {
+    color: #fafafa;
+    text-decoration: none;
+
+    &:hover,
+    &:focus { color: darken(#fafafa, 10%); }
+  }
 }
 
 .logo {
-  color: #fafafa;
   .font-headers;
   font-size: 30px;
   line-height: 60px;
-  text-decoration: none;
-
-  &:hover,
-  &:focus { color: darken(#fafafa, 10%); }
 }
 
 .header-socials {
@@ -19,6 +22,21 @@
   li {
     display: inline-block;
     text-align: right;
-    margin: 0 0 0 -3px;
+    margin: 0 0 0 4px;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 57px;
+    padding-bottom: 3px;
+
+    &.icon-facebook { font-size: 41px; }
+
+    &.icon-twitter { font-size: 44px; }
+
+    &.icon-reddit { font-size: 49px; }
+
+    &.icon-gplus { font-size: 44px; }
   }
 }

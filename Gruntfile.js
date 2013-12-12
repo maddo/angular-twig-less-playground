@@ -14,7 +14,10 @@ module.exports = function (grunt) {
     less: {
       options: {
         compress: true,
-        paths: ['<%= paths.app %>/styles/elements']
+        paths: [
+          '<%= paths.app %>/styles/elements',
+          '<%= paths.app %>/styles/pages'
+        ]
       },
       dev: {
         files: {

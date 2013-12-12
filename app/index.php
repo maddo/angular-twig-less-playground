@@ -13,7 +13,7 @@
     }
 
     if($selfClose) {
-      $html .= ' />';
+      $html .= '/>';
     } else {
       $html .= '></'.$tag.'>';
     }
@@ -47,7 +47,7 @@
     $html = null;
 
     foreach($files as $file) {
-      $html .= generate_tag('link', ['href' => $file.'.css', 'rel' => 'stylesheet'])."\n";
+      $html .= generate_tag('link', ['href' => '/styles/'.$file.'.css', 'rel' => 'stylesheet'], true)."\n";
     }
 
     return $html;

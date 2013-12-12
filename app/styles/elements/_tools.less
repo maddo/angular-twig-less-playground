@@ -1,0 +1,32 @@
+.clearfix {
+  *zoom: 1;
+
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+    line-height: 0;
+  }
+
+  &:after { clear: both; }
+}
+
+.to-left { float: left; }
+
+.to-right { float: right; }
+
+.to-ceneter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt-to-left { text-align: left; }
+
+.txt-to-right { text-align: right; }
+
+.txt-to-center { text-align: center; }
+
+.visible { display: block; }
+
+.hidden { display: none; }
+

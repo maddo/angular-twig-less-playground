@@ -1,0 +1,34 @@
+.footer {
+  border-top: solid 1px #e5e5e5;
+  font-size: 14px;
+  color: rgba(37, 37, 37, 0.5);
+  padding: 31px 0 25px;
+
+  a {
+    color: rgba(37, 37, 37, 0.5);
+    text-decoration: none;
+
+    &:hover,
+    &:focus { text-decoration: underline; }
+  }
+}
+
+.footer-links {
+
+  li {
+    display: inline-block;
+    text-align: right;
+    margin: 0 0 0 -3px;
+
+    &:before {
+      content: '|'; 
+      display: inline-block;
+      margin: 0 6px;
+    }
+
+    &:first-child {
+
+      &:before { display: none; }
+    }
+  } 
+}

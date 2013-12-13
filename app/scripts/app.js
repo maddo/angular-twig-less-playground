@@ -15,6 +15,11 @@ var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute'])
       controller: 'TestController'
     })
 
+    .when('/results', {
+      templateUrl: '/views/results.html',
+      controller: 'ResultsController'
+    })
+
     .when('/personalities', {
       templateUrl: '/views/personalities.html',
     })

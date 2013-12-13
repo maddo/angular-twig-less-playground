@@ -1,24 +1,31 @@
-<div class="question-header chessboard">
+<div  ng-class="{withImage: question.image}">
+
+  <div class="question-header chessboard">
+      
+    <test-progress steps="questionsNumber" current-step="questionIndex"></test-progress>
     
-  <test-progress steps="questionsNumber" current-step="questionIndex"></test-progress>
+    <div class="container clearfix" ng-class="{narrow: !question.image}">
 
-  <div class="narrow container clearfix">
-    <span ng-bind-template="{{questionIndex + 1}}" class="question-number"></span>
-    <h1 ng-bind-template="{{question.question}}" class="question-label"></h1>
-  
+      <img ng-src="{{question.image}}" alt="{{question.question}}" ng-show="question.image" class="question-image"/>
+
+      <div class="question clearfix">
+        <span ng-bind-template="{{questionIndex + 1}}" class="question-number"></span>
+        <h1 ng-bind-template="{{question.question}}" class="question-label"></h1>
+      </div>
+
+    </div>
+
   </div>
+    
+  <div class="container answers" ng-class="{narrow: !question.image}">
+    
+    <ul>
+      <li ng-repeat="answer in question.answers" class="answer">
+        <button class="square orange button answer-button" ng-bind-template="{{answer.label}}" ng-click="response($index);"></button>
+        <p class="answer-label" ng-bind-template="{{answer.answer}}"></p>
+      </li>
+    </ul>
 
-</div>
-  
-<div class="narrow container answers">
-  
-  <ul>
-  
-    <li ng-repeat="answer in question.answers" class="answer">
-      <button class="square orange button answer-button" ng-bind-template="{{answer.label}}" ng-click="response($index);"></button>
-      <p class="answer-label" ng-bind-template="{{answer.answer}}"></p>
-    </li>
-
-  </ul>
+  </div>
 
 </div>

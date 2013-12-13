@@ -1,5 +1,5 @@
 'use strict';
-app.controller('TestController', ['$scope', '$resource', '$location', function ($scope, $resource) {
+app.controller('TestController', ['$scope', '$resource', '$location', '$rootScope', function ($scope, $resource, $location, $rootScope) {
 
   var questions = $resource('/scripts/questions.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
@@ -46,7 +46,9 @@ app.controller('TestController', ['$scope', '$resource', '$location', function (
   };
 
   $scope.showResults = function(){
-    console.log('Resulats!');
+    $rootScope.questions = $scope.questions;
+    $rootScope.answers = answers;
+    $location.path('/results').replace();
   };
 
 }]);

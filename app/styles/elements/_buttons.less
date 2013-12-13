@@ -1,7 +1,8 @@
 .button {
   display: inline-block;
   border-radius: 5px;
-  border-bottom: solid 4px;
+  border-width: 0 0 4px;
+  border-style: solid;
   text-align: center;
   font-size: 28px;
   line-height: 60px;
@@ -9,9 +10,10 @@
   color: #fff;
   padding: 0 22px;
   font-weight: bold;
+  margin: 0;
+  cursor: pointer;
 
-  &:hover,
-  &:focus {
+  &:active {
     border-bottom: none;
     padding-top: 4px;
   }
@@ -34,26 +36,51 @@
   &.orange {
     background: #f26522;
     border-color: #dd4700;
+
+    &:hover,
+    &:focus {
+      background: darken(#f26522, 5%);  
+    }
   }
 
   &.red {
     background: #d24238;
     border-color: #a8352d;
+
+    &:hover,
+    &:focus {
+      background: darken(#a8352d, 5%);  
+    }
   }
 
   &.azure {
     background: #1caaed;
     border-color: #1688be;
+
+    &:hover,
+    &:focus {
+      background: darken(#1688be, 5%);  
+    }
   }
 
   &.blue {
     background: #4c6fa8;
     border-color: #3d5986;
+
+    &:hover,
+    &:focus {
+      background: darken(#3d5986, 5%);  
+    }
   }
 
   &.teal {
     background: #5c9ac6;
     border-color: #4a7b9e;
+
+    &:hover,
+    &:focus {
+      background: darken(#4a7b9e, 5%);  
+    }
   }
 
 }

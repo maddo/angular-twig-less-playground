@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="ChessPersonality">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -7,44 +7,21 @@
   <link href="http://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet"/>
   {{styles('style')}}
 </head>
-<body class="home-page">
+<body>
   {{include('_header.html')}}
   
-  <div class="home-page-header">
-    
-    <div class="container">
-      <h1>What kind of chess player are you?</h1>
-      <a href="#" title="Take test" class="button large orange">Take Test</a>
-    </div>
-
-  </div>
-
-  <div class="home-content chessboard">
-    
-    <div class="container">
-    
-      <h2>Answer 20 questions and find out:</h2>
-
-      <ul class="home-benefits clearfix">
-      
-        <li>
-          <p>Best openings for&nbsp;your style</p>
-        </li>
-
-        <li>
-          <p>Which friends are most like you</p>
-        </li>
-
-        <li>
-          <p>Which master are you most like</p>
-        </li>
-
-      </ul>
-
-    </div>
-
-  </div>
+  <div class="content" ng-view></div>
 
   {{include('_footer.html')}}
+
+  {{scripts([
+    '/vendor/jquery/jquery.min',
+    '/vendor/angular/angular.min',
+    '/vendor/angular-route/angular-route.min',
+    '/vendor/angular-resource/angular-resource.min',
+    '/scripts/app',
+    '/scripts/controllers/test',
+    '/scripts/directives/progress'
+  ])}}
 </body>
 </html>

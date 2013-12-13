@@ -1,0 +1,24 @@
+<div class="question-header chessboard">
+    
+  <test-progress steps="questionsNumber" current-step="questionIndex"></test-progress>
+
+  <div class="narrow container clearfix">
+    <span ng-bind-template="{{questionIndex + 1}}" class="question-number"></span>
+    <h1 ng-bind-template="{{question.question}}" class="question-label"></h1>
+  
+  </div>
+
+</div>
+  
+<div class="narrow container answers">
+  
+  <ul>
+  
+    <li ng-repeat="answer in question.answers" class="answer">
+      <button class="square orange button answer-button" ng-bind-template="{{answer.label}}" ng-click="response($index);"></button>
+      <p class="answer-label" ng-bind-template="{{answer.answer}}"></p>
+    </li>
+
+  </ul>
+
+</div>

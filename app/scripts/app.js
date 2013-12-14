@@ -21,7 +21,7 @@ var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute'])
     })
 
     .when('/personalities', {
-      templateUrl: '/views/personalities.html',
+      templateUrl: '/views/personalities.html'
     })
 
     .otherwise({

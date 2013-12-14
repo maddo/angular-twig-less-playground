@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <title>Chess Personality</title>
-  <link href="http://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet"/>
-  {{styles('style')}}
+  {{styles([
+    'http://fonts.googleapis.com/css?family=Oleo+Script:400,700',
+    'style'
+  ])}}
 </head>
 <body is-home>
   {{include('partials/_header.html')}}

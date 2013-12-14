@@ -31,7 +31,14 @@
     $html = null;
 
     foreach($files as $file) {
-      $html .= generate_tag('script', ['src' => '/scripts/'.$file.'.js'])."\n";
+
+      $path = '';
+      
+      if(strpos(substr($file, 0, 8), '//') === false) {
+        $path = '/scripts/';
+      }
+
+      $html .= generate_tag('script', ['src' => $path.$file.'.js'])."\n";
     }
 
     return $html;
@@ -47,7 +54,14 @@
     $html = null;
 
     foreach($files as $file) {
-      $html .= generate_tag('link', ['href' => '/styles/'.$file.'.css', 'rel' => 'stylesheet'], true)."\n";
+
+      $path = '';
+      
+      if(strpos(substr($file, 0, 8), '//') === false) {
+        $path = '/styles/';
+      }
+
+      $html .= generate_tag('link', ['href' => $path.$file.'.css', 'rel' => 'stylesheet'], true)."\n";
     }
 
     return $html;

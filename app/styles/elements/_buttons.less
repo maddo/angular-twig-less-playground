@@ -9,7 +9,7 @@
   height: 60px;
   text-decoration: none;
   color: #fff;
-  padding: 0 22px;
+  padding: 2px 22px 0;
   font-weight: bold;
   margin: 0;
   cursor: pointer;
@@ -25,12 +25,17 @@
     height: 100px;
     padding-left: 52px;
     padding-right: 52px;
+
+    &:active { padding-top: 6px; }
   }
 
   &.square {
     width: 60px;
+    height: 59px;
     padding-left: 0;
     padding-right: 0;
+
+    &:active { padding-top: 6px; }
 
     &.large { width: 100px; }
   }

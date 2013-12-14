@@ -120,6 +120,8 @@
   .buttons-set {
     line-height: 60px;
     margin-left: 14px;
+    position: relative;
+    top: -2px;
 
     .icon {
       font-weight: normal;
@@ -136,9 +138,13 @@
 
   .button.orange { margin-right: 8px; }
 
-  .results-left { text-align: center; }
+  .results-left {
+    text-align: center;
+    
+    & > span:first-child { line-height: 66px; }
+  }
 
   .results-right {
-    span { line-height: 60px; }
+    span { line-height: 66px; }
   }
 }

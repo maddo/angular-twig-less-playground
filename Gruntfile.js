@@ -35,11 +35,11 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt,php}',
             'scripts/**/*',
-            'vendor/**/*',
             'views/**/*',
             'images/**/*',
             'fonts/*',
-            'styles/**/*.css'
+            'styles/**/*.css',
+            'Twig/**/*'
           ]
         }]
       }
@@ -53,7 +53,6 @@ module.exports = function (grunt) {
         files: [
           '<%= paths.app %>/*.{ico,png,txt,php}',
           '<%= paths.app %>/scripts/**/*',
-          '<%= paths.app %>/vendor/**/*',
           '<%= paths.app %>/views/**/*',
           '<%= paths.app %>/images/**/*',
           '<%= paths.app %>/fonts/**/*',

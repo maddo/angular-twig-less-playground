@@ -1,16 +1,20 @@
-.results-header { border-bottom: solid 1px #e5e5e5; }
+.results-left {
+  float: left;
+  width: 455px;
+}
+
+.results-right {
+  float: right; 
+  width: 431px;
+}
 
 .results-stats {
-  width: 431px;
-  float: right;
   margin: 28px 0 11px;
 
   .stats { margin: 0 0 20px; }
 }
 
 .result {
-  float: left;
-  width: 509px;
   padding: 27px 0 0;
 
   h1 {
@@ -61,11 +65,6 @@
 
 .results-content {
   padding: 47px 0 45px;
-  
-  .bio {
-    width: 455px;
-    float: left;
-  }
  
   h2 {
     .font-headers;
@@ -78,9 +77,6 @@
 }
 
 .results-recommendations {
-  width: 431px;
-  float: right;
-
   p {
     font-size: 20px;
     line-height: 30px;
@@ -112,5 +108,37 @@
     text-indent: -999em;
     background: #e5e5e5;
     margin: 0 1px 0 0;
+  }
+}
+
+.share-results{
+  border-top: solid 1px #e5e5e5;
+  background: url('/images/bg-chessboard.png');
+  padding: 30px 0;
+  font-size: 20px;
+
+  .buttons-set {
+    line-height: 60px;
+    margin-left: 14px;
+
+    .icon {
+      font-weight: normal;
+
+      &.facebook { font-size: 41px; }
+
+      &.twitter { font-size: 44px; }
+
+      &.reddit { font-size: 49px; }
+
+      &.gplus { font-size: 44px; }
+    }
+  }
+
+  .button.orange { margin-right: 8px; }
+
+  .results-left { text-align: center; }
+
+  .results-right {
+    span { line-height: 60px; }
   }
 }

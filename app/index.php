@@ -1,5 +1,5 @@
 <?php
-  require_once('vendor/Twig/Autoloader.php');
+  require_once('Twig/Autoloader.php');
   Twig_Autoloader::register();
   $twig = new Twig_Environment( new Twig_Loader_Filesystem("./views"));
 
@@ -31,7 +31,7 @@
     $html = null;
 
     foreach($files as $file) {
-      $html .= generate_tag('script', ['src' => $file.'.js'])."\n";
+      $html .= generate_tag('script', ['src' => '/scripts/'.$file.'.js'])."\n";
     }
 
     return $html;

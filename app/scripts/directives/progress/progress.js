@@ -5,7 +5,7 @@ app.directive('testProgress', [function() {
       steps: '=',
       currentStep: '='
     },
-    templateUrl: '/views/_progress.html',
+    templateUrl: '/scripts/directives/progress/progress.html',
     link: function(scope, element, attrs) {
 
 

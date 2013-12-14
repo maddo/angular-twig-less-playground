@@ -29,6 +29,7 @@
 .home-content {
   height: 439px;
   padding: 47px 0 0;
+  background: url('../images/bg-chessboard.png');
 
   h2 {
     color: #2e8097;
@@ -36,14 +37,32 @@
     font-weight: normal;
     font-size: 40px;
     text-align: center;
+    margin: 0 0 30px;
   }
 }
 
 .home-benefits {
-  
+  text-align: center;
+  margin: 0 0 45px;
+
   li {
     width: 195px;
-    float: left;
+    display: inline-block;
+    margin: 0 125px 0 0;
+
+    &:last-child { margin-right: 0; }
+
+    &:before {
+      content: '';
+      display: block;
+      width: 130px;
+      height: 130px;
+      overflow: hidden;
+      background: #2e8097;
+      border: solid 5px #fff;
+      border-radius: 70px;
+      margin: 0 auto 20px;
+    }
   }
 
   p {
@@ -52,4 +71,8 @@
     line-height: 27px;
     text-align: center;
   }
+}
+
+.home-facebook {
+  text-align: center;
 }

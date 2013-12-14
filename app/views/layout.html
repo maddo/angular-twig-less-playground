@@ -8,22 +8,23 @@
   {{styles('style')}}
 </head>
 <body>
-  {{include('_header.html')}}
+  {{include('partials/_header.html')}}
   
   <div class="content" ng-view></div>
 
-  {{include('_footer.html')}}
+  {{include('partials/_footer.html')}}
 
   {{scripts([
-    '/vendor/jquery/jquery.min',
-    '/vendor/angular/angular.min',
-    '/vendor/angular-route/angular-route.min',
-    '/vendor/angular-resource/angular-resource.min',
-    '/scripts/app',
-    '/scripts/controllers/test',
-    '/scripts/controllers/results',
-    '/scripts/directives/progress',
-    '/scripts/directives/stats'
+    'vendor/jquery/jquery.min',
+    'vendor/angular/angular.min',
+    'vendor/angular-route/angular-route.min',
+    'vendor/angular-resource/angular-resource.min',
+    'app',
+    'controllers/test',
+    'controllers/results',
+    'directives/progress/progress',
+    'directives/stats/stats'
   ])}}
+  
 </body>
 </html>

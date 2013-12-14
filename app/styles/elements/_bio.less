@@ -1,0 +1,31 @@
+.bio {
+
+  p {
+    color: #182f36;
+    line-height: 21px;
+    margin: 0 0 20px;
+
+    &.more {
+      margin: 0;
+
+      a {
+
+        &:after {
+          content: '|';
+          display: inline-block;
+          color: #939ea1;
+          margin: 0 4px 0 8px;
+        }
+
+        &:last-child {
+          &:after { display: none; }
+        }
+      }
+    }
+  }
+
+  img {
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+}

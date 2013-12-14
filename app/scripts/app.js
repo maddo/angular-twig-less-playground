@@ -7,7 +7,7 @@ var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute'])
     $routeProvider
 
     .when('/', {
-      templateUrl: '/views/home.html',
+      templateUrl: '/views/home.html'
     })
 
     .when('/test', {

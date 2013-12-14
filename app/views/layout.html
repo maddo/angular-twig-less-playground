@@ -7,7 +7,7 @@
   <link href="http://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet"/>
   {{styles('style')}}
 </head>
-<body>
+<body is-home>
   {{include('partials/_header.html')}}
   
   <div class="content" ng-view></div>
@@ -23,7 +23,8 @@
     'controllers/test',
     'controllers/results',
     'directives/progress/progress',
-    'directives/stats/stats'
+    'directives/stats/stats',
+    'directives/isHome/isHome'
   ])}}
   
 </body>

@@ -1,3 +1,25 @@
+<div class="personalities-header top">
+
+  <div class="personalities-slider-container">
+
+    <span class="arrow prev-slide" ng-click="changeSlide('prev');" ng-class="{disabled: currentSlide == 0}">,</span>
+    <span class="arrow next-slide" ng-click="changeSlide('next');" ng-class="{disabled: currentSlide == maxSlide}">.</span>
+
+    <ul rn-carousel class="personalities-slider" rn-carousel-index="currentSlide">
+
+      <li class="personalities-slider-slide" ng-repeat="personality in personalities">
+        
+        <ul class="personalities-list clearfix">
+          <li ng-repeat="p in personality" class="personalities-list-item">{{p}}</li>
+        </ul>
+
+      </li>
+
+    </ul>
+
+  </div>
+
+</div>
 
 <div class="results-content">
 

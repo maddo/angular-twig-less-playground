@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute'])
+var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'angular-carousel'])
 
   .config(function($routeProvider){
 
@@ -21,7 +21,8 @@ var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute'])
     })
 
     .when('/personalities', {
-      templateUrl: '/views/personalities.html'
+      templateUrl: '/views/personalities.html',
+      controller: 'PersonalitiesController'
     })
 
     .otherwise({

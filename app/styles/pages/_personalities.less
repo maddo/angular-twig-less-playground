@@ -1,5 +1,69 @@
+.personalities-header {
+  padding: 50px 0;
+}
+
 .personalities-stats {
   margin: 0 0 45px;
 
   .stats { margin: 0 0 20px; }
+}
+
+.personalities-slider-container {
+  width: 820px;
+  padding: 0 56px;
+  margin: 0 auto;
+  position: relative;
+
+  .arrow {
+    position: absolute;
+    top: 60px;
+    cursor: pointer;
+    .font-icons;
+    font-size: 78px;
+    line-height: 34px;
+    color: #c6c6c6;
+
+    &:hover,
+    &:focus { color: darken(#c6c6c6, 5%); }
+
+    &.disabled { color: #e5e5e5; }
+
+    &.prev-slide { left: -8px; }
+
+    &.next-slide { right: -8px; }
+  }
+}
+
+.personalities-slider-slide {
+  height: 100%;
+  margin: 0;
+}
+
+.personalities-list { height: 100%; }
+
+.personalities-list-item {
+  float: left;
+  width: 140px !important;
+  margin: 0 30px 0 0;
+  text-align: center;
+  color: #2e8097;
+  font-size: 24px;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 130px;
+    height: 130px;
+    background: #c6c6c6;
+    border: solid 5px #fff; 
+    border-radius: 70px;
+    margin: 0 auto 10px;
+  }
+
+  &:hover,
+  &:focus {
+    &:before { background: #2e8097; }
+  }
+
+  &:last-child { margin: 0; }
 }

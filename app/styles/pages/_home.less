@@ -55,13 +55,44 @@
     &:before {
       content: '';
       display: block;
-      width: 130px;
-      height: 130px;
+      width: 140px;
+      height: 140px;
       overflow: hidden;
       background: #2e8097;
       border: solid 5px #fff;
       border-radius: 70px;
       margin: 0 auto 20px;
+      text-align: center;
+      color: #fff;
+      .font-icons2;
+      position: relative;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    &.star {
+      font-size: 89px;
+      &:before {
+        content: 'c';
+        padding-top: 20px;
+      }
+    }
+
+    &.move {
+      font-size: 69px;
+      &:before {
+        content: 'a';
+        padding-top: 32px;
+      }
+    }
+
+    &.pawn {
+      font-size: 100px;
+      &:before {
+        content: 'b';
+        padding-top: 14px;
+      }
     }
   }
 

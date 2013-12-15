@@ -4,7 +4,7 @@
   $twig = new Twig_Environment( new Twig_Loader_Filesystem("./views"));
 
   //generate html tag
-  function generate_tag($tag, $attrs = [], $selfClose = false){
+  function generate_tag($tag, $attrs = array(), $selfClose = false){
 
     $html = '<'.$tag;
 
@@ -25,7 +25,7 @@
   $twig->addFunction(new Twig_SimpleFunction('scripts', function ($files){
 
     if(!is_array($files)) {
-      $files = [$files];
+      $files = array($files);
     }
 
     $html = null;
@@ -38,7 +38,7 @@
         $path = '/scripts/';
       }
 
-      $html .= generate_tag('script', ['src' => $path.$file.'.js'])."\n";
+      $html .= generate_tag('script', array('src' => $path.$file.'.js'))."\n";
     }
 
     return $html;
@@ -48,7 +48,7 @@
   $twig->addFunction(new Twig_SimpleFunction('styles', function ($files){
 
     if(!is_array($files)) {
-      $files = [$files];
+      $files = array($files);
     }
 
     $html = null;
@@ -61,7 +61,7 @@
         $path = '/styles/';
       }
 
-      $html .= generate_tag('link', ['href' => $path.$file.'.css', 'rel' => 'stylesheet'], true)."\n";
+      $html .= generate_tag('link', array('href' => $path.$file.'.css', 'rel' => 'stylesheet'), true)."\n";
     }
 
     return $html;

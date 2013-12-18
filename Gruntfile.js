@@ -39,7 +39,8 @@ module.exports = function (grunt) {
             'images/**/*',
             'fonts/*',
             'styles/**/*.css',
-            'Twig/**/*'
+            'Twig/**/*',
+            '.htaccess'
           ]
         }]
       }

@@ -2,7 +2,7 @@
 
 var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'angular-carousel'])
 
-  .config(function($routeProvider){
+  .config(function($routeProvider, $locationProvider){
 
     $routeProvider
 
@@ -28,4 +28,6 @@ var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'angular-
     .otherwise({
       redirectTo: '/'
     });
+
+    $locationProvider.html5Mode(true);
   });

@@ -25,12 +25,31 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
     $scope.questionIndex = $scope.questions.indexOf($scope.question);
   });
 
-  //user answers
-  var answers = [];
+  //bag with user's answers
+   var score = {
+    'positional': 0,
+    'solid': 0,
+    'calculating': 0,
+    'calm': 0
+  };
 
   $scope.response = function(answerIndex){
-    //add user answer to answers bag
-    answers.push({question: $scope.questionIndex , answer: answerIndex});
+    
+    //user answer
+    var answer = $scope.question.answers[answerIndex];
+
+    //calculate score
+
+    switch(answer.stats) {
+      case 'attacking': score.positional--; break;
+      case 'positional': score.positional++; break;
+      case 'aggressive': score.solid--; break;
+      case 'solid': score.solid++; break;
+      case 'intuitive': score.calculating--; break;
+      case 'calculating': score.calculating++; break;
+      case 'emotional': score.calm--; break;
+      case 'calm': score.calm++; break;
+    }
 
     //try to get next question
     var nextQuestion = $scope.questions[$scope.questionIndex  + 1];
@@ -46,9 +65,16 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
   };
 
   $scope.showResults = function(){
-    $rootScope.questions = $scope.questions;
-    $rootScope.answers = answers;
+    $rootScope.score = score;
     $location.path('/results').replace();
+  };
+
+  //iterate in alphabet,
+  //should be in view, but ng-bind-template has no idea
+  //what to do with String object :(
+
+  $scope.answerLabel = function(answerIndex) {
+    return String.fromCharCode(65 + answerIndex);
   };
 
 }]);

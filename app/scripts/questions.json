@@ -1,200 +1,282 @@
 {
   "questions": [
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa, eaque facere tempora earum porro rem error ab enim iusto magnam eos odio eius amet voluptates fugit rerum sint maiores.",
-      "image": "/images/board.jpg",
+      "question": "Which side would you rather play in the following position (Black to move)?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "White",
+          "stats": "attacking"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Black",
+          "stats": "positional"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "When you play in tournaments, do you usually score with consistent results or do you often perform on the extremes - either really well or really poorly?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Pretty consistent results",
+          "stats": "calm"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Often perform either really well or really poorly",
+          "stats": "emotional"
         }
       ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa, eaque facere tempora earum porro rem error ab enim iusto magnam eos odio eius amet voluptates fugit rerum sint maiores.",
+      "question": "Which best describes how you think about this position in the Sveshnikov Sicilian?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Black has given up a critically important square (d5).",
+          "stats": "positional"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Black has lots of potential counterplay with the bishop pair, and the f5 pawn break. ",
+          "stats": "attacking"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem.",
-      "image": "/images/board.jpg",
+      "question": "Which statement is closer to the truth:",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "I bring my best game when facing opponents I dislike.",
+          "stats": "emotional"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "I don't really notice my opponent.",
+          "stats": "calm"
         }
       ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa, eaque facere tempora earum porro rem error ab enim iusto magnam eos odio eius amet voluptates fugit rerum sint maiores.",
+      "question": "Black has just played g5. Your first instinct is to...",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Take on g5",
+          "stats": "aggressive"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Retreat to g3",
+          "stats": "solid"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "Do you play gambits?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Yes",
+          "stats": "attacking"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "No",
+          "stats": "positional"
         }
       ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa, eaque facere tempora earum porro rem error ab enim iusto magnam eos odio eius amet voluptates fugit rerum sint maiores.",
+      "question": "If given time to decide whether or not to take on g5 from the previous position, you would:",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Know from the placement of the pieces if the black King would come under strong attack if it could be defended.",
+          "stats": "intuitive"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Calculate many variations to decide if White’s attack would be strong enough.",
+          "stats": "calculating"
         }
       ]
     },
     {
-      "question": "Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis.",
-      "image": "/images/board.jpg",
+      "question": "Under serious time pressure you are more likely to:",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Miss a tactic",
+          "stats": "intuitive"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Move pieces aimlessly",
+          "stats": "calculating"
         }
       ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa, eaque facere tempora earum porro rem error ab enim iusto magnam eos odio eius amet voluptates fugit rerum sint maiores.",
+      "question": "Which of these ideas do you prefer for White?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "White should trade bishops, and put an unassailable knight on d4, which will prevent any counterplay from black doubling rooks on the c-file by defending c2.",
+          "stats": "positional"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "White should push d4, temporarily misplacing black's dark-squared bishop, and then start an attack on the kingside with f5 where the black king sits alone.",
+          "stats": "attacking"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "You start the game out with 1.d4. Would you rather your opponent play 1...d5 or 1...f5?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "1… d5",
+          "stats": "solid"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "1… f5",
+          "stats": "aggressive"
         }
       ]
     },
     {
-      "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsa, eaque facere tempora earum porro rem error ab enim iusto magnam eos odio eius amet voluptates fugit rerum sint maiores.",
+      "question": "You have been ahead a pawn for most of the game but after tough resistance from your opponent, you have only 5 minutes left in this position. Should you play on, or offer your opponent a draw?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Keep pushing for the win.",
+          "stats": "aggressive"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Offer a draw.",
+          "stats": "solid"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "Which statement comes closest to your feelings:",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "It's always a joy to be paired with someone you've crushed in the past.",
+          "stats": "emotional"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "The odds of winning are slightly higher against opponents one has previously beaten.",
+          "stats": "calm"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "In the following position with plenty of time on your clock, what would you do?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Trade on e6 and play Rd7 because the endgame is good for white or redirect the Knight to c3 (via a4) to preserve the better minor piece.",
+          "stats": "intuitive"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "Invest some serious time calculating whether Nxe6 achieves anything concrete.",
+          "stats": "calculating"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "What do you think of the famous saying \"Chess is 99% Tactics.\"",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "I agree",
+          "stats": "calculating"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "I disagree",
+          "stats": "intuitive"
         }
       ]
     },
     {
-      "question": "Aliquam id justo tincidunt elit dictum porta. Nulla nec tellus quis erat viverra sollicitudin semper id orci. Donec fermentum nibh non justo mattis, nec elementum ligula consectetur. Maecenas id cursus lacus, a convallis magna. Fusce a fringilla dolor. Pellentesque eleifend lorem turpis, ut luctus risus bibendum eget. Vivamus porttitor tortor venenatis, tristique nunc non, fringilla nulla. Nullam ullamcorper sapien a arcu aliquam, ac lobortis risus facilisis. Ut orci nulla, consequat vitae posuere eget, ultrices vel sem. Integer urna nisl, adipiscing interdum pharetra sed, dignissim ac ipsum.",
+      "question": "How do you feel about this wild gambit line for Black?",
+      "image": "",
       "answers": [
         {
-          "label": "a",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "No way - am I trying to lose?!",
+          "stats": "solid"
         },
         {
-          "label": "b",
-          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations."
+          "answer": "I like my chances and this will definitely mess with my opponent!",
+          "stats": "aggressive"
+        }
+      ]
+    },
+    {
+      "question": "After losing a game have you ever broken something or yelled out loud?",
+      "image": "",
+      "answers": [
+        {
+          "answer": "No",
+          "stats": "calm"
+        },
+        {
+          "answer": "Yes",
+          "stats": "emotional"
+        }
+      ]
+    },
+    {
+      "question": "White to play and castle...",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Kingside",
+          "stats": "solid"
+        },
+        {
+          "answer": "Queenside",
+          "stats": "aggressive"
+        }
+      ]
+    },
+    {
+      "question": "Which is closer to the truth:",
+      "image": "",
+      "answers": [
+        {
+          "answer": "I get excited or nervous before a game",
+          "stats": "emotional"
+        },
+        {
+          "answer": "I don't worry about prizes, money, titles, or honors while playing, I just play my game",
+          "stats": "calm"
+        }
+      ]
+    },
+    {
+      "question": "How would you come up with a plan in this position? ",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations.",
+          "stats": "intuitive"
+        },
+        {
+          "answer": "I would calculate some plausible moves for white to see how strong various possibilities are.",
+          "stats": "calculating"
+        }
+      ]
+    },
+    {
+      "question": "Which is harder for you to do?",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Identify my advantages and building a plan",
+          "stats": "attacking"
+        },
+        {
+          "answer": "Trade a good position for a strong attack",
+          "stats": "positional"
         }
       ]
     }

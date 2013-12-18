@@ -26,29 +26,18 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
   });
 
   //bag with user's answers
-   var score = {
-    'positional': 0,
-    'solid': 0,
-    'calculating': 0,
-    'calm': 0
-  };
+   var scores = {};
 
   $scope.response = function(answerIndex){
     
     //user answer
     var answer = $scope.question.answers[answerIndex];
 
-    //calculate score
-
-    switch(answer.stats) {
-      case 'attacking': score.positional--; break;
-      case 'positional': score.positional++; break;
-      case 'aggressive': score.solid--; break;
-      case 'solid': score.solid++; break;
-      case 'intuitive': score.calculating--; break;
-      case 'calculating': score.calculating++; break;
-      case 'emotional': score.calm--; break;
-      case 'calm': score.calm++; break;
+    //updating scores
+    if(angular.isUndefined(scores[answer.stats])) {
+      scores[answer.stats] = 1;
+    } else {
+      scores[answer.stats]++;
     }
 
     //try to get next question
@@ -65,7 +54,7 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
   };
 
   $scope.showResults = function(){
-    $rootScope.score = score;
+    $rootScope.scores = scores;
     $location.path('/results').replace();
   };
 

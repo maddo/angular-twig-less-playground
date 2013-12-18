@@ -4,8 +4,26 @@
       "type": "Anaconda",
       "player": "Aaron Nimzowitsch",
       "otherPlayers": "",
-      "openingsWhite": "Four Knights; Reti System",
-      "openingsBlack": "French Defense; Caro-Kann",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Four Knights"
+        },
+        {
+          "link": "#",
+          "label": "Reti System"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "French Defense"
+        },
+        {
+          "link": "#",
+          "label": "Caro-Kann"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Nimzowitsch+Aaron&sort=1",
       "description": "",
       "stats": "positional, aggressive, intuitive, emotional"
@@ -24,8 +42,18 @@
       "type": "Barbarian",
       "player": "Hikaru Nakamura",
       "otherPlayers": "Topalov",
-      "openingsWhite": "Queen's Gambit",
-      "openingsBlack": "Sicilian Defense",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian Defense"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Nakamura+Hikaru&sort=1",
       "description": "",
       "stats": "attacking, aggressive, calculating, emotional"
@@ -34,8 +62,22 @@
       "type": "Champion",
       "player": "Garry Kasparov",
       "otherPlayers": "Short",
-      "openingsWhite": "Ruy Lopez (Spanish); Queen's Gambit",
-      "openingsBlack": "Sicilian Defense",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian Defense"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Kasparov+Garry&sort=1",
       "description": "",
       "stats": "attacking, solid, calculating, emotional"
@@ -44,8 +86,18 @@
       "type": "Escape Artist",
       "player": "Viktor Korchnoi",
       "otherPlayers": "",
-      "openingsWhite": "English Opening",
-      "openingsBlack": "French Defense",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "English Opening"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "French Defense"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Korchnoi+Viktor&sort=1",
       "description": "",
       "stats": "positional, solid, calculating, emotional"
@@ -54,8 +106,26 @@
       "type": "Genius",
       "player": "Jose Raul Capablanca",
       "otherPlayers": "Petrosian",
-      "openingsWhite": "Ruy Lopez (Spanish)",
-      "openingsBlack": "Ruy Lopez (Spanish); Queen's Gambit Declined (Orthodox Defense)",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Gambit Declined (Orthodox Defense)"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Capablanca+Jose+Raul&sort=1",
       "description": "",
       "stats": "positional, solid, intuitive, emotional"
@@ -64,8 +134,18 @@
       "type": "Grinder",
       "player": "Anatoly Karpov",
       "otherPlayers": "",
-      "openingsWhite": "Queen's Gambit",
-      "openingsBlack": "Caro-Kann",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Caro-Kann"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Karpov+Anatoly&sort=1",
       "description": "",
       "stats": "positional, aggressive, intuitive, calm"
@@ -74,8 +154,22 @@
       "type": "Mad Scientist",
       "player": "Wilhelm Steinitz",
       "otherPlayers": "",
-      "openingsWhite": "Vienna Game; King's Gambit",
-      "openingsBlack": "Ruy Lopez (Spanish)",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Vienna Game"
+        },
+        {
+          "link": "#",
+          "label": "King's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Steinitz+Wilhelm&sort=1",
       "description": "",
       "stats": "positional, solid, calculating, emotional"
@@ -94,8 +188,26 @@
       "type": "Mastermind",
       "player": "Alexander Alekhine",
       "otherPlayers": "Radjabov",
-      "openingsWhite": "Ruy Lopez (Spanish); Queen's Gambit",
-      "openingsBlack": "Ruy Lopez (Spanish); French Defense",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "French Defense"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Alekhine+Alexander+A&sort=1",
       "description": "",
       "stats": "attacking, solid, calculating, calm"
@@ -104,8 +216,22 @@
       "type": "Natural",
       "player": "Viswanathan Anand",
       "otherPlayers": "Spassky",
-      "openingsWhite": "Ruy Lopez (Spanish)",
-      "openingsBlack": "Sicilian; Queen's Indian",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Indian"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Anand+Viswanathan&sort=1",
       "description": "",
       "stats": "attacking, solid, intuitive, calm"
@@ -114,8 +240,30 @@
       "type": "Prodigy",
       "player": "Magnus Carlsen",
       "otherPlayers": "Aronian",
-      "openingsWhite": "Ruy Lopez (Spanish); Queen's Gambit",
-      "openingsBlack": "Ruy Lopez (Spanish); Sicilian; Grunfeld",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Sicilian"
+        },
+        {
+          "link": "#",
+          "label": "Grunfeld"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Carlsen+Magnus&sort=1",
       "description": "",
       "stats": "attacking, solid, aggressive, calm"
@@ -124,8 +272,26 @@
       "type": "Professional",
       "player": "Mikhail Botvinnik",
       "otherPlayers": "Grischuk",
-      "openingsWhite": "Nimzo-Indian; English Opening",
-      "openingsBlack": "French Defense (Winawer); Sicilian",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Nimzo-Indian"
+        },
+        {
+          "link": "#",
+          "label": "English Opening"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "French Defense (Winawer)"
+        },
+        {
+          "link": "#",
+          "label": "Sicilian"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Botvinnik+Mikhail+M&sort=1",
       "description": "",
       "stats": "positional, solid, calculating, calm"
@@ -134,8 +300,18 @@
       "type": "Romantic",
       "player": "Vassily Ivanchuk",
       "otherPlayers": "",
-      "openingsWhite": "Ruy Lopez (Spanish)",
-      "openingsBlack": "Sicilian Defense",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian Defense"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Ivanchuk+Vassily&sort=1",
       "description": "",
       "stats": "attacking, solid, intuitive, emotional"
@@ -144,8 +320,22 @@
       "type": "Surgeon",
       "player": "Emanuel Lasker",
       "otherPlayers": "",
-      "openingsWhite": "Ruy Lopez (Spanish)",
-      "openingsBlack": "Ruy Lopez (Spanish); Queen's Gambit Declined (Orthodox Defense)",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "#",
+          "label": "Queen's Gambit Declined (Orthodox Defense)"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Lasker+Emanuel&sort=1",
       "description": "",
       "stats": "positional, aggressive, calculating, calm"
@@ -154,8 +344,26 @@
       "type": "Technician",
       "player": "Vladimir Kramnik",
       "otherPlayers": "Smyslov, Gelfand",
-      "openingsWhite": "English Opening",
-      "openingsBlack": "Sicilian Defense; Semi-Slav; Petrov Defense",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "English Opening"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian Defense"
+        },
+        {
+          "link": "#",
+          "label": "Semi-Slav"
+        },
+        {
+          "link": "#",
+          "label": "Petrov Defense"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Kramnik+Vladimir&sort=1",
       "description": "",
       "stats": "positional, solid, intuitive, calm"

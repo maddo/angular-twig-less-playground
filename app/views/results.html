@@ -48,12 +48,14 @@
 
       <p>
         White:
-        <a href="#" title="King’s Gambit">King’s Gambit</a>;
-        <a href="#" title="King’s Gambit">Queen’s Gambit</a>
+        <span ng-repeat="opening in personality.openingsWhite">
+          <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template="{{opening.label}}"></a>;
+        </span>
         <br />
-        Black: 
-        <a href="#" title="Philidor Defense">Philidor Defense</a>;
-        <a href="#" title="Sicilian Defense">Sicilian Defense</a>
+        Black:
+        <span ng-repeat="opening in personality.openingsBlack">
+          <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template="{{opening.label}}"></a>;
+        </span>
       </p>
       
       <div class="friends">

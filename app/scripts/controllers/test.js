@@ -26,7 +26,7 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
   });
 
   //bag with user's answers
-   var scores = {};
+  var scores = {};
 
   $scope.response = function(answerIndex){
     
@@ -50,18 +50,62 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
       //or show results
       $scope.showResults();
     }
-
   };
 
   $scope.showResults = function(){
+    
     $rootScope.scores = scores;
-    $location.path('/results').replace();
+
+    //let's see how I am...
+    var personalitySet = '';
+
+    if(scores.attacking > scores.positional) {
+      personalitySet += 'attacking,';
+    } else {
+      personalitySet += 'positional,';
+    }
+
+    if(scores.aggressive > scores.solid) {
+      personalitySet += ' aggressive,';
+    } else {
+      personalitySet += ' solid,';
+    }
+
+    if(scores.intuitive > scores.calculating) {
+      personalitySet += ' intuitive,';
+    } else {
+      personalitySet += ' calculating,';
+    }
+
+    if(scores.emotional > scores.calm) {
+      personalitySet += ' emotional';
+    } else {
+      personalitySet += ' calm';
+    }
+
+    //...and who I am
+    //by searching in personalities list
+    var personality = $resource('/scripts/personalities.json', {}, {
+      query: {method: 'GET', params: {}, isArray: false}
+    });
+
+    personality.query(function(res){
+
+      for(var i = 0; i < res.personalities.length; i++) {
+        var tmpPersonality = res.personalities[i];
+
+        if(tmpPersonality.stats === personalitySet) {
+          // I am tmpPersonality!
+          $location.path('/type/' + tmpPersonality.type.toLowerCase()).replace();
+        }
+      }
+    });
+
   };
 
   //iterate in alphabet,
   //should be in view, but ng-bind-template has no idea
   //what to do with String object :(
-
   $scope.answerLabel = function(answerIndex) {
     return String.fromCharCode(65 + answerIndex);
   };

@@ -2,26 +2,12 @@
 
   p {
     color: #182f36;
-    line-height: 21px;
+    line-height: 20px;
     margin: 0 0 20px;
 
-    &.more {
-      margin: 0;
+    &:first-child { margin: 0 0 34px; }
 
-      a {
-
-        &:after {
-          content: '|';
-          display: inline-block;
-          color: #939ea1;
-          margin: 0 4px 0 8px;
-        }
-
-        &:last-child {
-          &:after { display: none; }
-        }
-      }
-    }
+    &.more { margin: 0; }
   }
 
   img {

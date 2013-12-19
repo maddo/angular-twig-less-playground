@@ -1,32 +1,77 @@
 'use strict';
-app.controller('PersonalitiesController', ['$scope', function ($scope) {
+app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', '$resource', '$routeParams', function ($scope, $location, $rootScope, $resource, $routeParams) {
 
-  $scope.personalities = [
-    ['Grinder', 'Grinder2', 'Grinder3', 'Grinder4', 'Grinder5'],
-    ['Grinder', 'Grinder2', 'Grinder3', 'Grinder4', 'Grinder5'],
-    ['Grinder', 'Grinder2', 'Grinder3', 'Grinder4', 'Grinder5'],
-    ['Grinder', 'Grinder2', 'Grinder3', 'Grinder4', 'Grinder5'],
-  ];
+  var personality = $resource('/scripts/personalities.json', {}, {
+    query: {method: 'GET', params: {}, isArray: false}
+  });
 
-  $scope.currentSlide = 0;
+  //get personality and set scores
+  personality.query(function(res){
 
-  $scope.maxSlide = $scope.personalities.length - 1;
+    for(var i = 0; i < res.personalities.length; i++) {
+      var tmpPersonality = res.personalities[i];
 
-  $scope.changeSlide = function(direction){
+      if(tmpPersonality.type.toLowerCase() === $routeParams.type) {
+        tmpPersonality.lastName = tmpPersonality.player.split(" ")[1];
+        $scope.personality = tmpPersonality;
 
-    if(direction === 'next') {
+        //set user's score to view
+        //if user toke test
+        //or use personality extremes
+        var scores = {
+          'positional': 0,
+          'solid': 0,
+          'calculating': 0,
+          'calm': 0
+        };
 
-      if($scope.currentSlide < $scope.maxSlide) {
-        $scope.currentSlide++;
+        if(!angular.isUndefined($rootScope.scores)) {
+
+          for(var s in $rootScope.scores) {
+            scores[s] = ($rootScope.scores[s]/5)*100;
+          }
+
+          $scope.afterTest = true;
+
+        } else {
+          var personalityStats = tmpPersonality.stats.replace(/,/g, '').split(' ');
+
+          for(var j = 0; j < personalityStats.length; j++) {
+            var tmpStat = personalityStats[j];
+
+            if(!angular.isUndefined(scores[tmpStat])) {
+              scores[tmpStat] = 100;
+            }
+          }
+
+          $scope.afterTest = false;
+        }
+
+        $scope.scores = scores;
       }
     }
+  });
 
-    if(direction === 'prev') {
+  
+  // $scope.currentSlide = 0;
 
-      if($scope.currentSlide > 0) {
-        $scope.currentSlide--;
-      }
-    }
-  };
+  // $scope.maxSlide = $scope.personalities.length - 1;
+
+  // $scope.changeSlide = function(direction){
+
+  //   if(direction === 'next') {
+
+  //     if($scope.currentSlide < $scope.maxSlide) {
+  //       $scope.currentSlide++;
+  //     }
+  //   }
+
+  //   if(direction === 'prev') {
+
+  //     if($scope.currentSlide > 0) {
+  //       $scope.currentSlide--;
+  //     }
+  //   }
+  // };
 
 }]);

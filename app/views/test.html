@@ -10,7 +10,9 @@
 
       <div class="question clearfix">
         <span ng-bind-template="{{questionIndex + 1}}" class="question-number"></span>
-        <h1 ng-bind-template="{{question.question}}" class="question-label"></h1>
+        <h1 class="question-label">
+          <span ng-bind-template="{{question.question}}"></span>
+        </h1>
       </div>
 
     </div>
@@ -20,10 +22,14 @@
   <div class="container answers" ng-class="{narrow: !question.image}">
     
     <ul>
+
       <li ng-repeat="answer in question.answers" class="answer clearfix">
         <button class="square orange button answer-button" ng-bind-template="{{answerLabel($index)}}" ng-click="response($index);"></button>
-        <p class="answer-label"><span ng-bind-template="{{answer.answer}}"></span></p>
+        <p class="answer-label">
+          <span ng-bind-template="{{answer.answer}}"></span>
+        </p>
       </li>
+      
     </ul>
 
   </div>

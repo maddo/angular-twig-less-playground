@@ -1,0 +1,83 @@
+<div class="personalities-header top">
+
+  <div class="personalities-slider-container">
+
+    <span class="arrow prev-slide" ng-click="changeSlide('prev');" ng-class="{disabled: currentSlide == 0}">,</span>
+    <span class="arrow next-slide" ng-click="changeSlide('next');" ng-class="{disabled: currentSlide == maxSlide}">.</span>
+
+    <ul rn-carousel class="personalities-slider" rn-carousel-index="currentSlide">
+
+      <li class="personalities-slider-slide" ng-repeat="personality in personalities">
+        
+        <ul class="personalities-list clearfix">
+          <li ng-repeat="p in personality" class="personalities-list-item">{{p}}</li>
+        </ul>
+
+      </li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="results-content">
+
+  <div class="container clearfix">
+  
+    <div class="bio results-left">
+      <h2>Anatoli Karpov is a Grinder</h2>
+
+      <p>
+        <img src="/images/bio.jpg" alt="Anatoli Karpov" width="140" height="140" />
+        Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
+        Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
+      </p>
+      
+      <p class="more">
+        <a href="#" title="Explore Karpov’s Games">Explore Karpov’s Games</a>
+      </p>
+
+    </div>
+
+    <div class="results-recommendations results-right">
+
+      <div class="personalities-stats">
+        <score-stats label-left="Attacking" label-right="Positional" score="0"></score-stats>
+        <score-stats label-left="Aggressive" label-right="Solid" score="30"></score-stats>
+        <score-stats label-left="Intuitive" label-right="Calculating" score="50"></score-stats>
+        <score-stats label-left="Emotional" label-right="Calm" score="70"></score-stats>
+      </div>
+    
+      <h2>Recommended Openings</h2>
+
+      <p>
+        White:
+        <a href="#" title="King’s Gambit">King’s Gambit</a>;
+        <a href="#" title="King’s Gambit">Queen’s Gambit</a>
+        <br />
+        Black: 
+        <a href="#" title="Philidor Defense">Philidor Defense</a>;
+        <a href="#" title="Sicilian Defense">Sicilian Defense</a>
+      </p>
+      
+      <div class="friends">
+        
+        <h2>Friends</h2>
+
+        <p>These friends share your Chess Personality:</p>
+        
+        <ul class="friends-list">
+          <li><a href="#" title="Friend's name">Friend's name</a></li>
+          <li><a href="#" title="Friend's name">Friend's name</a></li>
+          <li><a href="#" title="Friend's name">Friend's name</a></li>
+          <li><a href="#" title="Friend's name">Friend's name</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

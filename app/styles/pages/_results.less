@@ -1,44 +1,19 @@
-.results-left {
+.column-left {
   float: left;
   width: 455px;
 }
 
-.results-right {
+.column-right {
   float: right; 
   width: 431px;
 }
 
-.results-stats {
-  margin: 28px 0 11px;
-
-  .stats { margin: 0 0 20px; }
+.stats {
+  margin: 0 0 20px;
+  
+  &:last-of-type { margin: 0 0 35px; }
 }
 
-.result {
-  padding: 27px 0 0;
-
-  h1 {
-    font-size: 20px;
-    font-weight: normal;
-    text-indent: 90px;
-
-    &:before,
-    &:after {
-      content: '';
-      display: inline-block;
-      width: 16px;
-      height: 0;
-      border-top: solid 1px #252525;
-      border-bottom: solid 1px #bfbfbe;
-      position: relative;
-      top: -4px;
-    }
-
-    &:before { left: -4px; }
-
-    &:after { right: -4px; }
-  }
-}
 
 .personality {
   .font-headers;
@@ -70,7 +45,7 @@
 .results-content {
   padding: 47px 0 45px;
  
-  h2 {
+  h1 {
     .font-headers;
     font-weight: normal;
     font-size: 36px;
@@ -78,77 +53,52 @@
     color: #2e8097;
     margin: 0 0 26px;
   }
-}
 
-.results-recommendations {
-  p {
+  h2 {
     font-size: 20px;
-    line-height: 30px;
-    color: #182f36;
-    margin: -3px 0 0;
-  }
-}
-
-.friends {
-  margin: 27px 0 0;
-
-  h2 { margin: 0 0 9px; }
-
-  p {
-    line-height: 20px;
+    color: #252525;
+    font-weight: normal;
     margin: 0 0 18px;
   }
 }
 
-.friends-list {
-
-  li { display: inline; }
-
-  a {
-    display: inline-block;
-    width: 55px;
-    height: 55px;
-    overflow: hidden;
-    text-indent: -999em;
-    background: #e5e5e5;
-    margin: 0 1px 0 0;
+.openings {
+  margin: 0 0 34px;
+  color: #182f36;
+  
+  li {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
-.share-results{
-  border-top: solid 1px #e5e5e5;
+.share-buttons {
+  margin: 0 0 34px;
+
+  .icon {
+    font-weight: normal;
+
+    &.facebook { font-size: 41px; }
+
+    &.twitter { font-size: 44px; }
+
+    &.reddit { font-size: 49px; }
+
+    &.gplus { font-size: 44px; }
+  }
+}
+
+.results-action {
   background: url('/images/bg-chessboard.png');
+  text-align: center;
+  border-top: solid 1px #e5e5e5;
   padding: 30px 0;
   font-size: 20px;
+  
+  .take-test { padding-left: 46px; }
 
-  .buttons-set {
-    line-height: 60px;
-    margin-left: 14px;
-    position: relative;
-    top: -2px;
+  .play-chess { padding-left: 100px };
 
-    .icon {
-      font-weight: normal;
-
-      &.facebook { font-size: 41px; }
-
-      &.twitter { font-size: 44px; }
-
-      &.reddit { font-size: 49px; }
-
-      &.gplus { font-size: 44px; }
-    }
-  }
-
-  .button.orange { margin-right: 8px; }
-
-  .results-left {
-    text-align: center;
-    
-    & > span:first-child { line-height: 66px; }
-  }
-
-  .results-right {
-    span { line-height: 66px; }
-  }
+  .button { margin: 0 28px; }
 }

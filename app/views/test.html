@@ -22,7 +22,7 @@
     <ul>
       <li ng-repeat="answer in question.answers" class="answer clearfix">
         <button class="square orange button answer-button" ng-bind-template="{{answerLabel($index)}}" ng-click="response($index);"></button>
-        <p class="answer-label" ng-bind-template="{{answer.answer}}"></p>
+        <p class="answer-label"><span ng-bind-template="{{answer.answer}}"></span></p>
       </li>
     </ul>
 

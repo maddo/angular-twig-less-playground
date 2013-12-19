@@ -40,7 +40,8 @@ module.exports = function (grunt) {
             'fonts/*',
             'styles/**/*.css',
             'Twig/**/*',
-            '.htaccess'
+            '.htaccess',
+            'favicon.ico'
           ]
         }]
       }

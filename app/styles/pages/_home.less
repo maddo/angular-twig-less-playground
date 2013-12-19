@@ -23,6 +23,8 @@
     color: #fff;
     margin: 115px 0 51px;
     text-shadow: 1px 1px 1px #172d35;
+
+    @media(max-width: @mobile) { margin: 55px 0; }
   }
 }
 
@@ -30,6 +32,8 @@
   height: 439px;
   padding: 47px 0 0;
   background: url('../images/bg-chessboard.png');
+
+  @media(max-width: @mobile) { height: auto; }
 
   h2 {
     color: #2e8097;
@@ -45,10 +49,19 @@
   text-align: center;
   margin: 0 0 45px;
 
+  @media(max-width: @mobile) { margin: 0 0 20px; }
+
   li {
     width: 195px;
     display: inline-block;
     margin: 0 125px 0 0;
+
+    @media(max-width: @tablet) { margin-right: 55px; }
+
+    @media(max-width: @mobile) {
+      width: 100%;
+      margin: 0 0 20px;
+    }
 
     &:last-child { margin-right: 0; }
 
@@ -106,4 +119,6 @@
 
 .home-facebook {
   text-align: center;
+
+  @media(max-width: @mobile) { padding: 0 0 20px; }
 }

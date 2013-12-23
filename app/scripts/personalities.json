@@ -27,7 +27,8 @@
       "link": "http://www.chess.com/games/search?p1=Nimzowitsch+Aaron&sort=1",
       "description": "",
       "stats": "positional, aggressive, intuitive, emotional",
-      "image": "aaron-nimzowitsch.jpg"
+      "image": "aaron-nimzowitsch.jpg",
+      "url": "anaconda"
     },
     {
       "type": "Assassin",
@@ -52,7 +53,8 @@
       "link": "http://www.chess.com/games/search?p1=Fischer+Robert+J&sort=1",
       "description": "",
       "stats": "attacking, aggressive, calculating, calm",
-      "image": "bobby-fischer.jpg"
+      "image": "bobby-fischer.jpg",
+      "url": "assassin"
     },
     {
       "type": "Barbarian",
@@ -73,7 +75,8 @@
       "link": "http://www.chess.com/games/search?p1=Nakamura+Hikaru&sort=1",
       "description": "",
       "stats": "attacking, aggressive, calculating, emotional",
-      "image": "hikaru-nakamura.jpg"
+      "image": "hikaru-nakamura.jpg",
+      "url": "barbarian"
     },
     {
       "type": "Champion",
@@ -98,7 +101,8 @@
       "link": "http://www.chess.com/games/search?p1=Kasparov+Garry&sort=1",
       "description": "",
       "stats": "attacking, solid, calculating, emotional",
-      "image": "garry-kasparov.jpg"
+      "image": "garry-kasparov.jpg",
+      "url": "champion"
     },
     {
       "type": "Escape Artist",
@@ -119,7 +123,8 @@
       "link": "http://www.chess.com/games/search?p1=Korchnoi+Viktor&sort=1",
       "description": "",
       "stats": "positional, solid, calculating, emotional",
-      "image": "viktor-korchnoi.jpg"
+      "image": "viktor-korchnoi.jpg",
+      "url": "escape-artist"
     },
     {
       "type": "Genius",
@@ -148,7 +153,8 @@
       "link": "http://www.chess.com/games/search?p1=Capablanca+Jose+Raul&sort=1",
       "description": "",
       "stats": "positional, solid, intuitive, emotional",
-      "image": "jose-raul-capablanca.jpg"
+      "image": "jose-raul-capablanca.jpg",
+      "url": "genius"
     },
     {
       "type": "Grinder",
@@ -169,7 +175,8 @@
       "link": "http://www.chess.com/games/search?p1=Karpov+Anatoly&sort=1",
       "description": "",
       "stats": "positional, aggressive, intuitive, calm",
-      "image": "anatoly-karpov.jpg"
+      "image": "anatoly-karpov.jpg",
+      "url": "grinder"
     },
     {
       "type": "Mad Scientist",
@@ -194,7 +201,8 @@
       "link": "http://www.chess.com/games/search?p1=Steinitz+Wilhelm&sort=1",
       "description": "",
       "stats": "positional, solid, calculating, emotional",
-      "image": "william-steinitz.jpg"
+      "image": "william-steinitz.jpg",
+      "url": "mad-scientist"
     },
     {
       "type": "Magician",
@@ -219,7 +227,8 @@
       "link": "http://www.chess.com/games/search?p1=Tal+Mikhail&sort=1",
       "description": "",
       "stats": "attacking, aggressive, intuitive, emotional",
-      "image": "mikhail-tal.jpg"
+      "image": "mikhail-tal.jpg",
+      "url": "magican"
     },
     {
       "type": "Mastermind",
@@ -248,7 +257,8 @@
       "link": "http://www.chess.com/games/search?p1=Alekhine+Alexander+A&sort=1",
       "description": "",
       "stats": "attacking, solid, calculating, calm",
-      "image": "alexandre-alekhine.jpg"
+      "image": "alexandre-alekhine.jpg",
+      "url": "mastermind"
     },
     {
       "type": "Natural",
@@ -273,7 +283,8 @@
       "link": "http://www.chess.com/games/search?p1=Anand+Viswanathan&sort=1",
       "description": "",
       "stats": "attacking, solid, intuitive, calm",
-      "image": "viswanathan-anand.jpg"
+      "image": "viswanathan-anand.jpg",
+      "url": "natural"
     },
     {
       "type": "Prodigy",
@@ -306,7 +317,8 @@
       "link": "http://www.chess.com/games/search?p1=Carlsen+Magnus&sort=1",
       "description": "",
       "stats": "attacking, solid, aggressive, calm",
-      "image": "magnus-carlsen.jpg"
+      "image": "magnus-carlsen.jpg",
+      "url": "prodigy"
     },
     {
       "type": "Professional",
@@ -335,7 +347,8 @@
       "link": "http://www.chess.com/games/search?p1=Botvinnik+Mikhail+M&sort=1",
       "description": "",
       "stats": "positional, solid, calculating, calm",
-      "image": "mikhail-botvinnik.jpg"
+      "image": "mikhail-botvinnik.jpg",
+      "url": "professional"
     },
     {
       "type": "Romantic",
@@ -356,7 +369,8 @@
       "link": "http://www.chess.com/games/search?p1=Ivanchuk+Vassily&sort=1",
       "description": "",
       "stats": "attacking, solid, intuitive, emotional",
-      "image": "vassily-ivanchuk.jpg"
+      "image": "vassily-ivanchuk.jpg",
+      "url": "romantic"
     },
     {
       "type": "Surgeon",
@@ -381,7 +395,8 @@
       "link": "http://www.chess.com/games/search?p1=Lasker+Emanuel&sort=1",
       "description": "",
       "stats": "positional, aggressive, calculating, calm",
-      "image": "emanuel-lasker.jpg"
+      "image": "emanuel-lasker.jpg",
+      "url": "surgeon"
     },
     {
       "type": "Technician",
@@ -410,7 +425,8 @@
       "link": "http://www.chess.com/games/search?p1=Kramnik+Vladimir&sort=1",
       "description": "",
       "stats": "positional, solid, intuitive, calm",
-      "image": "vladimir-kramnik.jpg"
+      "image": "vladimir-kramnik.jpg",
+      "url": "technician"
     }
   ]
 }

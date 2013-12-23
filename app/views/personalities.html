@@ -1,4 +1,4 @@
-<div class="top">
+<div class="top personalities-header">
 
   <personalities-slider slides="personalities"></personalities-slider>
 
@@ -18,7 +18,7 @@
       <h1>{{personality.player}} is a {{personality.type}}</h1>
 
       <p>
-        <img ng-src="/images/players/{{personality.image}}" alt="Anatoli Karpov" width="140" height="140" />
+        <img ng-src="/images/players/{{personality.image}}" alt="{{personality.player}}" width="140" height="140" />
         Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
         Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
       </p>
@@ -33,10 +33,10 @@
 
     <div class="column-right">
 
-      <score-stats label-left="Attacking" label-right="Positional" score="{{scores.positional}}"></score-stats>
-      <score-stats label-left="Aggressive" label-right="Solid" score="{{scores.solid}}"></score-stats>
-      <score-stats label-left="Intuitive" label-right="Calculating" score="{{scores.calculating}}"></score-stats>
-      <score-stats label-left="Emotional" label-right="Calm" score="{{scores.calm}}"></score-stats>
+      <score-stats label-left="Attacking" label-right="Positional" score="scores.positional"></score-stats>
+      <score-stats label-left="Aggressive" label-right="Solid" score="scores.solid"></score-stats>
+      <score-stats label-left="Intuitive" label-right="Calculating" score="scores.calculating"></score-stats>
+      <score-stats label-left="Emotional" label-right="Calm" score="scores.calm"></score-stats>
       
       <div ng-show="afterTest">
         <h2>Share Your Results:</h2>

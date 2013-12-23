@@ -6,14 +6,14 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
   });
 
   $scope.personalities = [];
-  
+
   //get personality and set scores
   personality.query(function(res){
 
     for(var i = 0; i < res.personalities.length; i++) {
       var tmpPersonality = res.personalities[i];
-
-      if(tmpPersonality.type.toLowerCase() === $routeParams.type) {
+      
+      if(tmpPersonality.url === $routeParams.type) {
         tmpPersonality.lastName = tmpPersonality.player.split(" ")[1];
         $scope.personality = tmpPersonality;
 

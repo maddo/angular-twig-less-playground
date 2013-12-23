@@ -6,7 +6,7 @@
 
   .arrow {
     position: absolute;
-    top: 60px;
+    top: 57px;
     cursor: pointer;
     .font-icons;
     font-size: 78px;
@@ -29,20 +29,41 @@
   margin: 0;
 }
 
+.slider-slide-list {
+  height: 100%;
+  text-align: center;
+}
 
 .slider-slide-item {
-  float: left;
-  width: 140px !important;
-  margin: 0 30px 0 0;
+  display: inline-block;
+  width: 130px !important;
+  margin: 0 30px 0 -4px;
   text-align: center;
-  color: #2e8097;
-  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+
+  &:last-child { margin: 0; }
+
+  &.active {
+    width: 170px !important;
+    top: -20px;
+  }
+}
+
+.slider-slide-item-link {
+  display: block;
+  
+  span {
+    display: none;
+    color: #2e8097;
+    font-size: 30px;
+    .font-headers;
+  }
 
   &:before {
-    content: 'd';
     display: block;
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     background: #c6c6c6;
     border: solid 5px #fff; 
     border-radius: 70px;
@@ -56,8 +77,217 @@
 
   &:hover,
   &:focus {
+    text-decoration: none;
     &:before { background: #2e8097; }
   }
+  
+  .active & {
+    span { display: inline-block; }
 
-  &:last-child { margin: 0; }
+    &:before {
+      background: #2e8097;
+      width: 170px;
+      height: 170px;
+      border-radius: 90px;
+    }
+  }
+
+  &.anaconda { 
+    &:before {
+      content: 's';
+      padding-top: 20px;
+
+      .active & {
+        font-size: 99px;
+        padding-top: 32px;
+      }
+    }
+  }
+
+  &.assassin { 
+    &:before {
+      content: 't';
+      font-size: 82px;
+      padding-top: 22px;
+      padding-left: 14px;
+
+      .active & {
+        font-size: 99px;
+        padding-top: 31px;
+        padding-left: 17px;
+      }
+    }
+  }
+
+  &.barbarian { 
+    &:before {
+      content: 'r';
+      padding-top: 19px;
+
+      .active & {
+        font-size: 99px;
+        padding-top: 28px;
+      }
+    }
+  }
+
+  &.champion { 
+    &:before {
+      content: 'q';
+
+      .active & {
+        font-size: 95px;
+        padding-top: 34px;
+      } 
+    }
+  }
+
+  &.escape-artist { 
+    &:before {
+      content: 'p';
+      padding-top: 17px;
+
+      .active & {
+        font-size: 100px;
+        padding-top: 26px;
+      } 
+    }
+  }
+
+  &.genius { 
+    &:before {
+      content: 'm';
+      padding-top: 16px;
+
+      .active & {
+        font-size: 99px;
+        padding-top: 27px;
+      }
+    }
+  }
+
+  &.grinder { 
+    &:before {
+      content: 'n';
+      font-size: 78px;
+
+      .active & {
+        font-size: 90px;
+        padding-top: 34px;
+      }
+    }
+  }
+
+  &.mad-scientist { 
+    &:before {
+      content: 'o';
+      padding-top: 12px;
+
+      .active & {
+        font-size: 105px;
+        padding-top: 22px;
+      }
+    }
+  }
+
+  &.magican { 
+    &:before {
+      content: 'l';
+      font-size: 86px;
+      padding-top: 16px;
+
+      .active & {
+        font-size: 109px;
+        padding-top: 26px;
+      }
+    }
+  }
+
+  &.prodigy { 
+    &:before {
+      content: 'k';
+
+      .active & {
+        font-size: 93px;
+        padding-top: 36px;
+      }
+    }
+  }
+
+  &.natural { 
+    &:before {
+      content: 'j';
+      font-size: 74px;
+      padding-top: 22px;
+
+      .active & {
+        font-size: 94px;
+        padding-top: 28px;
+      }
+    }
+  }
+
+  &.mastermind { 
+    &:before {
+      content: 'g';
+      padding-top: 16px;
+
+      .active & {
+        font-size: 99px;
+        padding-top: 27px;
+      }
+    }
+  }
+
+  &.professional { 
+    &:before {
+      content: 'h';
+
+      .active & {
+        font-size: 93px;
+        padding-top: 36px;
+      }
+    }
+  }
+
+  &.romantic { 
+    &:before {
+      content: 'i';
+      font-size: 77px;
+
+      .active & {
+        font-size: 93px;
+        padding-top: 35px;
+      }
+    }
+  }
+
+  &.surgeon { 
+    &:before {
+      content: 'f';
+      font-size: 70px;
+
+      .active & {
+        font-size: 80px;
+        padding-top: 38px;
+      }
+    }
+  }
+
+  &.technician { 
+    &:before {
+      content: 'e';
+      font-size: 76px;
+
+      .active & {
+        font-size: 90px;
+        padding-top: 37px;
+      }
+    }
+  }
+
 }
+
+.rn-carousel-container { height: 244px; }
+
+.slider { margin-top: 20px !important; }

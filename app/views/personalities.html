@@ -1,9 +1,6 @@
 <div class="top">
 
-  <div class="container clearfix">
-  
-
-  </div>
+  <personalities-slider slides="personalities"></personalities-slider>
 
 </div>
 
@@ -41,7 +38,7 @@
       <score-stats label-left="Intuitive" label-right="Calculating" score="{{scores.calculating}}"></score-stats>
       <score-stats label-left="Emotional" label-right="Calm" score="{{scores.calm}}"></score-stats>
       
-      <div >
+      <div ng-show="afterTest">
         <h2>Share Your Results:</h2>
         
         <div class="buttons-set share-buttons">

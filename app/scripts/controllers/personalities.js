@@ -5,6 +5,8 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
     query: {method: 'GET', params: {}, isArray: false}
   });
 
+  $scope.personalities = [];
+  
   //get personality and set scores
   personality.query(function(res){
 
@@ -50,28 +52,9 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
         $scope.scores = scores;
       }
     }
+
+    //set all personalities for slider
+    $scope.personalities = res.personalities;
   });
-
-  
-  // $scope.currentSlide = 0;
-
-  // $scope.maxSlide = $scope.personalities.length - 1;
-
-  // $scope.changeSlide = function(direction){
-
-  //   if(direction === 'next') {
-
-  //     if($scope.currentSlide < $scope.maxSlide) {
-  //       $scope.currentSlide++;
-  //     }
-  //   }
-
-  //   if(direction === 'prev') {
-
-  //     if($scope.currentSlide > 0) {
-  //       $scope.currentSlide--;
-  //     }
-  //   }
-  // };
 
 }]);

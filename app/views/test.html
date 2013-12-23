@@ -6,7 +6,7 @@
     
     <div class="container clearfix" ng-class="{narrow: !question.image}">
 
-      <img ng-src="{{question.image}}" alt="{{question.question}}" ng-show="question.image" class="question-image"/>
+      <img ng-src="/images/questions/{{question.image}}" alt="{{question.question}}" ng-show="question.image" class="question-image" width="480" height="480"/>
 
       <div class="question clearfix">
         <span ng-bind-template="{{questionIndex + 1}}" class="question-number"></span>

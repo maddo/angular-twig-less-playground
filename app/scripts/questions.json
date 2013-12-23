@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "Which side would you rather play in the following position (Black to move)?",
-      "image": "",
+      "image": "1.png",
       "answers": [
         {
           "answer": "White",
@@ -30,7 +30,7 @@
     },
     {
       "question": "Which best describes how you think about this position in the Sveshnikov Sicilian?",
-      "image": "",
+      "image": "3.png",
       "answers": [
         {
           "answer": "Black has given up a critically important square (d5).",
@@ -58,7 +58,7 @@
     },
     {
       "question": "Black has just played g5. Your first instinct is to...",
-      "image": "",
+      "image": "5.png",
       "answers": [
         {
           "answer": "Take on g5",
@@ -86,7 +86,7 @@
     },
     {
       "question": "If given time to decide whether or not to take on g5 from the previous position, you would:",
-      "image": "",
+      "image": "7.png",
       "answers": [
         {
           "answer": "Know from the placement of the pieces if the black King would come under strong attack if it could be defended.",
@@ -114,7 +114,7 @@
     },
     {
       "question": "Which of these ideas do you prefer for White?",
-      "image": "",
+      "image": "9.png",
       "answers": [
         {
           "answer": "White should trade bishops, and put an unassailable knight on d4, which will prevent any counterplay from black doubling rooks on the c-file by defending c2.",
@@ -142,7 +142,7 @@
     },
     {
       "question": "You have been ahead a pawn for most of the game but after tough resistance from your opponent, you have only 5 minutes left in this position. Should you play on, or offer your opponent a draw?",
-      "image": "",
+      "image": "11.png",
       "answers": [
         {
           "answer": "Keep pushing for the win.",
@@ -170,7 +170,7 @@
     },
     {
       "question": "In the following position with plenty of time on your clock, what would you do?",
-      "image": "",
+      "image": "13.png",
       "answers": [
         {
           "answer": "Trade on e6 and play Rd7 because the endgame is good for white or redirect the Knight to c3 (via a4) to preserve the better minor piece.",
@@ -198,7 +198,7 @@
     },
     {
       "question": "How do you feel about this wild gambit line for Black?",
-      "image": "",
+      "image": "15.png",
       "answers": [
         {
           "answer": "No way - am I trying to lose?!",
@@ -226,7 +226,7 @@
     },
     {
       "question": "White to play and castle...",
-      "image": "",
+      "image": "17.png",
       "answers": [
         {
           "answer": "Kingside",
@@ -254,7 +254,7 @@
     },
     {
       "question": "How would you come up with a plan in this position? ",
-      "image": "",
+      "image": "19.png",
       "answers": [
         {
           "answer": "Consider the strengths and weaknesses of black's position, pick squares for my pieces, and open or close the position or maintain or increase central tension, based on those considerations.",

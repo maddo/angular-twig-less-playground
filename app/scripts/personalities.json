@@ -26,17 +26,33 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Nimzowitsch+Aaron&sort=1",
       "description": "",
-      "stats": "positional, aggressive, intuitive, emotional"
+      "stats": "positional, aggressive, intuitive, emotional",
+      "image": "aaron-nimzowitsch.jpg"
     },
     {
       "type": "Assassin",
       "player": "Robert J Fischer",
       "otherPlayers": "Polgar",
-      "openingsWhite": "Ruy Lopez (Spanish)",
-      "openingsBlack": "Sicilian Defense (Najdorf); King's Indian",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian Defense (Najdorf)"
+        },
+        {
+          "link": "#",
+          "label": "King's Indian"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Fischer+Robert+J&sort=1",
       "description": "",
-      "stats": "attacking, aggressive, calculating, calm"
+      "stats": "attacking, aggressive, calculating, calm",
+      "image": "bobby-fischer.jpg"
     },
     {
       "type": "Barbarian",
@@ -56,7 +72,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Nakamura+Hikaru&sort=1",
       "description": "",
-      "stats": "attacking, aggressive, calculating, emotional"
+      "stats": "attacking, aggressive, calculating, emotional",
+      "image": "hikaru-nakamura.jpg"
     },
     {
       "type": "Champion",
@@ -80,7 +97,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Kasparov+Garry&sort=1",
       "description": "",
-      "stats": "attacking, solid, calculating, emotional"
+      "stats": "attacking, solid, calculating, emotional",
+      "image": "garry-kasparov.jpg"
     },
     {
       "type": "Escape Artist",
@@ -100,7 +118,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Korchnoi+Viktor&sort=1",
       "description": "",
-      "stats": "positional, solid, calculating, emotional"
+      "stats": "positional, solid, calculating, emotional",
+      "image": "viktor-korchnoi.jpg"
     },
     {
       "type": "Genius",
@@ -128,7 +147,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Capablanca+Jose+Raul&sort=1",
       "description": "",
-      "stats": "positional, solid, intuitive, emotional"
+      "stats": "positional, solid, intuitive, emotional",
+      "image": "jose-raul-capablanca.jpg"
     },
     {
       "type": "Grinder",
@@ -148,7 +168,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Karpov+Anatoly&sort=1",
       "description": "",
-      "stats": "positional, aggressive, intuitive, calm"
+      "stats": "positional, aggressive, intuitive, calm",
+      "image": "anatoly-karpov.jpg"
     },
     {
       "type": "Mad Scientist",
@@ -172,17 +193,33 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Steinitz+Wilhelm&sort=1",
       "description": "",
-      "stats": "positional, solid, calculating, emotional"
+      "stats": "positional, solid, calculating, emotional",
+      "image": "william-steinitz.jpg"
     },
     {
       "type": "Magician",
       "player": "Mikhail Tal",
       "otherPlayers": "Shirov",
-      "openingsWhite": "Ruy Lopez (Spanish)",
-      "openingsBlack": "Sicilian Defense; King's Indian",
+      "openingsWhite": [
+        {
+          "link": "#",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "#",
+          "label": "Sicilian Defense"
+        },
+        {
+          "link": "#",
+          "label": "King's Indian"
+        }
+      ],
       "link": "http://www.chess.com/games/search?p1=Tal+Mikhail&sort=1",
       "description": "",
-      "stats": "attacking, aggressive, intuitive, emotional"
+      "stats": "attacking, aggressive, intuitive, emotional",
+      "image": "mikhail-tal.jpg"
     },
     {
       "type": "Mastermind",
@@ -210,7 +247,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Alekhine+Alexander+A&sort=1",
       "description": "",
-      "stats": "attacking, solid, calculating, calm"
+      "stats": "attacking, solid, calculating, calm",
+      "image": "alexandre-alekhine.jpg"
     },
     {
       "type": "Natural",
@@ -234,7 +272,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Anand+Viswanathan&sort=1",
       "description": "",
-      "stats": "attacking, solid, intuitive, calm"
+      "stats": "attacking, solid, intuitive, calm",
+      "image": "viswanathan-anand.jpg"
     },
     {
       "type": "Prodigy",
@@ -266,7 +305,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Carlsen+Magnus&sort=1",
       "description": "",
-      "stats": "attacking, solid, aggressive, calm"
+      "stats": "attacking, solid, aggressive, calm",
+      "image": "magnus-carlsen.jpg"
     },
     {
       "type": "Professional",
@@ -294,7 +334,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Botvinnik+Mikhail+M&sort=1",
       "description": "",
-      "stats": "positional, solid, calculating, calm"
+      "stats": "positional, solid, calculating, calm",
+      "image": "mikhail-botvinnik.jpg"
     },
     {
       "type": "Romantic",
@@ -314,7 +355,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Ivanchuk+Vassily&sort=1",
       "description": "",
-      "stats": "attacking, solid, intuitive, emotional"
+      "stats": "attacking, solid, intuitive, emotional",
+      "image": "vassily-ivanchuk.jpg"
     },
     {
       "type": "Surgeon",
@@ -338,7 +380,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Lasker+Emanuel&sort=1",
       "description": "",
-      "stats": "positional, aggressive, calculating, calm"
+      "stats": "positional, aggressive, calculating, calm",
+      "image": "emanuel-lasker.jpg"
     },
     {
       "type": "Technician",
@@ -366,7 +409,8 @@
       ],
       "link": "http://www.chess.com/games/search?p1=Kramnik+Vladimir&sort=1",
       "description": "",
-      "stats": "positional, solid, intuitive, calm"
+      "stats": "positional, solid, intuitive, calm",
+      "image": "vladimir-kramnik.jpg"
     }
   ]
 }

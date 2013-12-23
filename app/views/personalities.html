@@ -21,7 +21,7 @@
       <h1>{{personality.player}} is a {{personality.type}}</h1>
 
       <p>
-        <img src="/images/bio.jpg" alt="Anatoli Karpov" width="140" height="140" />
+        <img ng-src="/images/players/{{personality.image}}" alt="Anatoli Karpov" width="140" height="140" />
         Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
         Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
       </p>
@@ -41,7 +41,7 @@
       <score-stats label-left="Intuitive" label-right="Calculating" score="{{scores.calculating}}"></score-stats>
       <score-stats label-left="Emotional" label-right="Calm" score="{{scores.calm}}"></score-stats>
       
-      <div ng-show="afterTest">
+      <div >
         <h2>Share Your Results:</h2>
         
         <div class="buttons-set share-buttons">
@@ -60,21 +60,21 @@
         </div>
       </div>
 
-      <h2>Recommended Openings:</h2>
+      <h2>Recommended Openings</h2>
 
       <ul class="openings">
 
         <li>
           White:
           <span ng-repeat="opening in personality.openingsWhite">
-            <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template=" {{opening.label}}"></a>;
+            <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template=" {{opening.label}}"></a><span ng-show="{{$index < (personality.openingsWhite.length - 1)}}">;</span>
           </span>
         </li>
         
         <li>
           Black:
           <span ng-repeat="opening in personality.openingsBlack">
-            <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template=" {{opening.label}}"></a>;
+            <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template=" {{opening.label}}"></a><span ng-show="{{$index < (personality.openingsBlack.length - 1)}}">;</span>
           </span>
         </li>
 
@@ -94,13 +94,13 @@
 
     <p class="play-chess" ng-show="afterTest">
       Ready for game?
-      <a href="http://chess.com" class="orange button">Play Chess</a>
+      <a href="http://chess.com" class="orange button" title="Play Chess">Play Chess</a>
       free on the #1 chess site.
     </p>
   
     <p class="take-test" ng-hide="afterTest">
       What kind of hess player are you?
-      <a href="/test" class="orange button">Take Test</a>
+      <a href="/test" class="orange button" title="Take the Quiz">Take the Quiz</a>
       Find best openings and like players.
     </p>
 

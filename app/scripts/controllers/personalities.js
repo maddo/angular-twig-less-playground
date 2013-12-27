@@ -53,6 +53,8 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
       }
     }
 
+    delete $rootScope.scores;
+
     //set all personalities for slider
     $scope.personalities = res.personalities;
   });

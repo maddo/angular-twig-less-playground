@@ -6,21 +6,21 @@
       "otherPlayers": "",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C46_Four_Knights_Game",
           "label": "Four Knights"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/A09_Reti_Opening",
           "label": "Reti System"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C00_French_Defense",
           "label": "French Defense"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B10_Caro_Kann_Defense",
           "label": "Caro-Kann"
         }
       ],
@@ -36,17 +36,17 @@
       "otherPlayers": "Polgar",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B90_Sicilian_Defense_Najdorf_Variation",
           "label": "Sicilian Defense (Najdorf)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/E61_Kings_Indian_Defense_3.Nc3",
           "label": "King's Indian"
         }
       ],
@@ -62,13 +62,13 @@
       "otherPlayers": "Topalov",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
           "label": "Queen's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
           "label": "Sicilian Defense"
         }
       ],
@@ -84,17 +84,17 @@
       "otherPlayers": "Short",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
           "label": "Queen's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
           "label": "Sicilian Defense"
         }
       ],
@@ -110,13 +110,13 @@
       "otherPlayers": "",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/A10_English_Opening",
           "label": "English Opening"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C00_French_Defense",
           "label": "French Defense"
         }
       ],
@@ -132,21 +132,17 @@
       "otherPlayers": "Petrosian",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
-        },
-        {
-          "link": "#",
-          "label": "Queen's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D60_Queens_Gambit_Declined_Orthodox_Defense",
           "label": "Queen's Gambit Declined (Orthodox Defense)"
         }
       ],
@@ -162,13 +158,13 @@
       "otherPlayers": "",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
           "label": "Queen's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B10_Caro_Kann_Defense",
           "label": "Caro-Kann"
         }
       ],
@@ -184,17 +180,17 @@
       "otherPlayers": "",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C27_Vienna_Game",
           "label": "Vienna Game"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C30_Kings_Gambit",
           "label": "King's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         }
       ],
@@ -210,17 +206,17 @@
       "otherPlayers": "Shirov",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
           "label": "Sicilian Defense"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/E61_Kings_Indian_Defense_3.Nc3",
           "label": "King's Indian"
         }
       ],
@@ -236,21 +232,21 @@
       "otherPlayers": "Radjabov",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
           "label": "Queen's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C00_French_Defense",
           "label": "French Defense"
         }
       ],
@@ -266,17 +262,17 @@
       "otherPlayers": "Spassky",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
-          "label": "Sicilian"
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/E12_Queens_Indian_Defense",
           "label": "Queen's Indian"
         }
       ],
@@ -292,25 +288,25 @@
       "otherPlayers": "Aronian",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
           "label": "Queen's Gambit"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
-          "label": "Sicilian"
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D80_Gruenfeld_Defense",
           "label": "Grunfeld"
         }
       ],
@@ -326,22 +322,22 @@
       "otherPlayers": "Grischuk",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/E20_Nimzo_Indian_Defense",
           "label": "Nimzo-Indian"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/A10_English_Opening",
           "label": "English Opening"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C15_French_Defense_Winawer_Variation",
           "label": "French Defense (Winawer)"
         },
         {
-          "link": "#",
-          "label": "Sicilian"
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
         }
       ],
       "link": "http://www.chess.com/games/search?p1=Botvinnik+Mikhail+M&sort=1",
@@ -356,13 +352,13 @@
       "otherPlayers": "",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
           "label": "Sicilian Defense"
         }
       ],
@@ -378,17 +374,17 @@
       "otherPlayers": "",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
           "label": "Ruy Lopez (Spanish)"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D60_Queens_Gambit_Declined_Orthodox_Defense",
           "label": "Queen's Gambit Declined (Orthodox Defense)"
         }
       ],
@@ -404,21 +400,21 @@
       "otherPlayers": "Smyslov, Gelfand",
       "openingsWhite": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/A10_English_Opening",
           "label": "English Opening"
         }
       ],
       "openingsBlack": [
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
           "label": "Sicilian Defense"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/D43_Semi_Slav_Defense",
           "label": "Semi-Slav"
         },
         {
-          "link": "#",
+          "link": "http://www.chess.com/opening/eco/C42_Russian_Game",
           "label": "Petrov Defense"
         }
       ],

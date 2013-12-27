@@ -1,22 +1,20 @@
-  <div class="slider-container">
-
+  <div class="slider">
+  
     <span class="arrow prev-slide" ng-click="changeSlide('prev');" ng-class="{disabled: currentSlide == 0}">,</span>
     <span class="arrow next-slide" ng-click="changeSlide('next');" ng-class="{disabled: currentSlide == maxSlide}">.</span>
+    
+    <div class="slider-container">
 
-    <ul rn-carousel class="slider" rn-carousel-index="currentSlide">
+      <ul class="slider-list">
 
-      <li class="slider-slide" ng-repeat="slideList in slidesList">
-        
-        <ul class="slider-slide-list">
-          <li ng-repeat="slide in slideList track by $index" class="slider-slide-item" ng-class="{active: slide.url == currentUrl}">
-            <a ng-href="/type/{{slide.url}}" class="slider-slide-item-link {{slide.url}}" title="{{slide.type}}">
-              <span>{{slide.type}}</span>
-            </a>
-          </li>
-        </ul>
+        <li class="slider-list-item" ng-repeat="slide in slides" ng-class="{active: $index == 2}">
+          <a ng-href="/type/{{slide.url}}" class="slider-list-item-link {{slide.url}}" title="{{slide.type}}">
+            <span>{{slide.type}}</span>
+          </a>
+        </li>
 
-      </li>
-
-    </ul>
+      </ul>
+    
+    </div>
 
   </div>

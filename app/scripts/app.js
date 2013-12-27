@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'angular-carousel'])
+var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute'])
 
   .config(function($routeProvider, $locationProvider){
 

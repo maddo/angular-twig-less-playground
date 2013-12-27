@@ -8,7 +8,6 @@
     "angular": "~1.2.2",
     "angular-resource": "~1.2.2",
     "angular-route": "~1.2.2",
-    "angular-sanitize": "~1.2.2",
-    "revolunet-angular-carousel": "~0.0.8"
+    "angular-sanitize": "~1.2.2"
   }
 }

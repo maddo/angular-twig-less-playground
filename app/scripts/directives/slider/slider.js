@@ -6,11 +6,30 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
     },
     templateUrl: '/scripts/directives/slider/slider.html',
     link: function(scope, element, attrs) {
-      
-      var slidesList = [[]];
 
-      scope.slidesList = slidesList;
+      
+
+      var slider = element.find('.slider-list');
+      
       scope.currentSlide = 0;
+
+      scope.$watch('slides', function(){
+
+        for(var i = 0; i < scope.slides.length; i++) {
+          var currentSlide =  scope.slides[i];
+
+          if(currentSlide.url == routeParams.type){
+            
+            console.log(currentSlide);
+
+            var tmpSlide = scope.slides[2];
+            scope.slides[2] = currentSlide;
+            scope.slides[i] = tmpSlide;
+          }
+        }
+
+        scope.maxSlide = scope.slides.length - 1 - 4;
+      });
 
       //changing slides
       scope.changeSlide = function(direction){
@@ -28,51 +47,17 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
             scope.currentSlide--;
           }
         }
-      };
 
-      scope.$watch('slides', function(oldSlides, newSlides){
+        var left = -1 * scope.currentSlide * 156;
 
-        if(scope.slides.length > 0) {
-          
-          slidesList = [[]];
-
-          for(var i = 0; i < scope.slides.length; i++) {
-            var tmpSlide = scope.slides[i],
-                j = 0;
-
-            do {
-              
-              var tmpSlideList = slidesList[j];
-
-              if(tmpSlideList.length < 5) {
-                slidesList[j].push(tmpSlide);
-              } else {
-
-                if(j == slidesList.length - 1) {
-                  slidesList.push([]);
-                }
-                
-              }
-
-              if(tmpSlide.url === routeParams.type) {
-                scope.currentSlide = j;
-              }
-              
-              j++;
-            } while(j < slidesList.length);
-          }
+        if(scope.currentSlide > 2) {
+          left = left - 20;
         }
 
-        scope.slidesList = slidesList;
-        scope.maxSlide = slidesList.length - 1;
-      });
-
-      scope.location = location;
-
-      scope.$watch('location.path()', function(newPath){
-        scope.currentUrl = routeParams.type;
-      });
+        slider.css('margin-left', left +'px');
+      };
 
     }
   };
+
 }]);

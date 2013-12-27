@@ -96,7 +96,7 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
 
         if(tmpPersonality.stats === personalitySet) {
           // I am tmpPersonality!
-          $location.path('/type/' + tmpPersonality.type.toLowerCase()).replace();
+          $location.path('/type/' + tmpPersonality.url).replace();
         }
       }
     });

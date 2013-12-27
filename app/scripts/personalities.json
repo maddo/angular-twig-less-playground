@@ -228,7 +228,7 @@
       "description": "",
       "stats": "attacking, aggressive, intuitive, emotional",
       "image": "mikhail-tal.jpg",
-      "url": "magican"
+      "url": "magician"
     },
     {
       "type": "Mastermind",
@@ -270,7 +270,7 @@
           "label": "Ruy Lopez (Spanish)"
         }
       ],
-      "openingBlack": [
+      "openingsBlack": [
         {
           "link": "#",
           "label": "Sicilian"

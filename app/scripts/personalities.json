@@ -161,7 +161,7 @@
     {
       "type": "Grinder",
       "player": "Anatoly Karpov",
-      "playerDescription": "",
+      "playerDescription": "Anatoly Karpov (born 1951), twelfth World Champion and superb positional player, is one of the most successful Grinders of all time. Not only did he hold the world title for 10 years, but in order to prove himself after Fischer disappeared, he played in as many tournaments as he could and amassed the most impressive win total and tournament resume of any player in history. During his prime, Karpov was famous for declining draws in worse positions, confident that he would play well enough to never lose them - all while giving his opponents ample opportunity to blow the game as they got ground down by the long game and his intense will to win!",
       "otherPlayers": "",
       "openingsWhite": [
         {
@@ -176,7 +176,7 @@
         }
       ],
       "link": "http://www.chess.com/games/search?p1=Karpov+Anatoly&sort=1",
-      "description": "",
+      "description": "Grinders are players with an unassuming style that can hide just how intent they are on winning. They don’t need to know opening theory to beat you. They don’t need to have an advantage to beat you. They don’t even need to have an equal position to beat you. Grinders have good positional skills, and are usually most at home in endgames. They are attuned to their opponents’ weaknesses which they use against them. On the other hand, they often know their own strengths and limitations pretty objectively, and will make good practical decisions. It’s hard to take advantage of a Ginder’s weaknesses, and you won’t have much luck getting errors out of them by applying pressure.",
       "stats": "positional, aggressive, intuitive, calm",
       "image": "anatoly-karpov.jpg",
       "url": "grinder"

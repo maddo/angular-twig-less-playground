@@ -7,8 +7,6 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
     templateUrl: '/scripts/directives/slider/slider.html',
     link: function(scope, element, attrs) {
 
-      
-
       var slider = element.find('.slider-list');
       
       scope.currentSlide = 0;
@@ -19,8 +17,6 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
           var currentSlide =  scope.slides[i];
 
           if(currentSlide.url == routeParams.type){
-            
-            console.log(currentSlide);
 
             var tmpSlide = scope.slides[2];
             scope.slides[2] = currentSlide;

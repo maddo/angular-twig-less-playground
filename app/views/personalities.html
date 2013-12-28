@@ -10,17 +10,13 @@
   
     <div class="bio column-left">
       
-      <p>
-        Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
-        Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
-      </p>
+      <p>{{personality.description}}</p>
 
       <h1>{{personality.player}} is a {{personality.type}}</h1>
 
       <p>
         <img ng-src="/images/players/{{personality.image}}" alt="{{personality.player}}" width="140" height="140" />
-        Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
-        Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess. Anatoly Karpov was a guy who played chess.
+        {{personality.playerDescription}}
       </p>
       
       <p class="more">
@@ -42,16 +38,16 @@
         <h2>Share Your Results:</h2>
         
         <div class="buttons-set share-buttons">
-          <a href="#" title="Share on Facebook" class="square blue button">
+          <a ng-href="https://www.facebook.com/sharer/sharer.php?u=http://chesspersonality.com/type/{{personality.url}}" title="Share on Facebook" class="square blue button" target="_blank">
             <span class="icon facebook"></span>
           </a>
-          <a href="#" title="Share on Twitter" class="square azure button">
+          <a ng-href="https://twitter.com/intent/tweet?url=http://chesspersonality.com/type/{{personality.url}}" title="Share on Twitter" class="square azure button" target="_blank">
             <span class="icon twitter"></span>
           </a>
-          <a href="#" title="Share on Reddit" class="square teal button">
+          <a ng-href="http://reddit.com/submit?url=http://chesspersonality.com/type/{{personality.url}}" title="Share on Reddit" class="square teal button" target="_blank">
             <span class="icon reddit"></span>
           </a>
-          <a href="#" title="Share on Google+" class="square red button">
+          <a ng-href="https://plus.google.com/share?url=http://chesspersonality.com/type/{{personality.url}}" title="Share on Google+" class="square red button" target="_blank">
             <span class="icon gplus"></span>
           </a>
         </div>
@@ -78,6 +74,8 @@
       </ul>
 
       <h2>These friends have this Chess Personality:</h2>
+
+      <div class="fb-like" data-href="http://chesspersonality.com/type/{{personality.url}}" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
 
     </div>
 

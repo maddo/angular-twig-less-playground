@@ -38,16 +38,16 @@
         <h2>Share Your Results:</h2>
         
         <div class="buttons-set share-buttons">
-          <a ng-href="https://www.facebook.com/sharer/sharer.php?u=http://chesspersonality.com/type/{{personality.url}}" title="Share on Facebook" class="square blue button" target="_blank">
+          <a ng-href="https://www.facebook.com/sharer/sharer.php?u=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Facebook" class="square blue button" target="_blank">
             <span class="icon facebook"></span>
           </a>
-          <a ng-href="https://twitter.com/intent/tweet?url=http://chesspersonality.com/type/{{personality.url}}" title="Share on Twitter" class="square azure button" target="_blank">
+          <a ng-href="https://twitter.com/intent/tweet?url=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Twitter" class="square azure button" target="_blank">
             <span class="icon twitter"></span>
           </a>
-          <a ng-href="http://reddit.com/submit?url=http://chesspersonality.com/type/{{personality.url}}" title="Share on Reddit" class="square teal button" target="_blank">
+          <a ng-href="http://reddit.com/submit?url=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Reddit" class="square teal button" target="_blank">
             <span class="icon reddit"></span>
           </a>
-          <a ng-href="https://plus.google.com/share?url=http://chesspersonality.com/type/{{personality.url}}" title="Share on Google+" class="square red button" target="_blank">
+          <a ng-href="https://plus.google.com/share?url=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Google+" class="square red button" target="_blank">
             <span class="icon gplus"></span>
           </a>
         </div>
@@ -73,9 +73,12 @@
 
       </ul>
 
-      <h2>These friends have this Chess Personality:</h2>
+      <h2>
+        <span ng-show="afterTest">These friends share your Chess Personality:</span>
+        <span ng-hide="afterTest">These friends have this Chess Personality:</span>
+      </h2>
 
-      <div class="fb-like" data-href="http://chesspersonality.com/type/{{personality.url}}" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
+      <div class="fb-like" data-href="http://chess.dev.suchego.pl/type/{{personality.url}}" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
 
     </div>
 

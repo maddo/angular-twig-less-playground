@@ -1,6 +1,8 @@
 'use strict';
 app.controller('TestController', ['$scope', '$resource', '$location', '$rootScope', function ($scope, $resource, $location, $rootScope) {
 
+  $rootScope.$emit('changeTitle', 'What is your Chess Personality!? Take the 20 question quiz to find out!');
+
   var questions = $resource('/scripts/questions.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
   });

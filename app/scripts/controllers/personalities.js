@@ -1,6 +1,9 @@
 'use strict';
 app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', '$resource', '$routeParams', function ($scope, $location, $rootScope, $resource, $routeParams) {
 
+  //page title change
+  $rootScope.$emit('changeTitle', "I am a chess barbarian! What is your chess personality? Take the quiz to find out?");
+
   var personality = $resource('/scripts/personalities.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
   });

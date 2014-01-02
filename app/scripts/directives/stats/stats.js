@@ -16,6 +16,8 @@ app.directive('scoreStats', [function() {
             containerWidth = $(element).find('.stats-container').outerWidth(),
             left;
 
+        pointer.hide();
+
         if(score < 0) {
           score = 0;
         }
@@ -37,6 +39,7 @@ app.directive('scoreStats', [function() {
 
         pointer.css('left', left + 'px');
         
+        pointer.fadeIn(100);
       });
     }
   };

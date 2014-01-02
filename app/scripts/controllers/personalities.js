@@ -19,6 +19,7 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
       if(tmpPersonality.url === $routeParams.type) {
         tmpPersonality.lastName = tmpPersonality.player.split(" ")[1];
         $scope.personality = tmpPersonality;
+        $scope.currentPersonalityIndex = i;
 
         //set user's score to view
         //if user toke test

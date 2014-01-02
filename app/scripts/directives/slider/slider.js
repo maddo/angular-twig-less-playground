@@ -2,56 +2,24 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
   return {
     restrict: 'E',
     scope: {
-      slides: '='
+      personalities: '=',
+      currentIndex: '='
     },
     templateUrl: '/scripts/directives/slider/slider.html',
     link: function(scope, element, attrs) {
 
-      var slider = element.find('.slider-list');
-      
-      scope.currentSlide = 0;
-
-      scope.$watch('slides', function(){
-
-        for(var i = 0; i < scope.slides.length; i++) {
-          var currentSlide =  scope.slides[i];
-
-          if(currentSlide.url == routeParams.type){
-
-            var tmpSlide = scope.slides[2];
-            scope.slides[2] = currentSlide;
-            scope.slides[i] = tmpSlide;
-          }
+      scope.$watch('personalities', function(){
+        
+        var slidesNumber = scope.personalities.length,
+            index = scope.currentIndex + slidesNumber,
+            slides = [];
+        
+        for(var i = index - 2; i < index + 3; i++) {
+          slides.push(scope.personalities[i%slidesNumber]);
         }
 
-        scope.maxSlide = scope.slides.length - 1 - 4;
+        scope.slides = slides;
       });
-
-      //changing slides
-      scope.changeSlide = function(direction){
-
-        if(direction === 'next') {
-
-          if(scope.currentSlide < scope.maxSlide) {
-            scope.currentSlide++;
-          }
-        }
-
-        if(direction === 'prev') {
-
-          if(scope.currentSlide > 0) {
-            scope.currentSlide--;
-          }
-        }
-
-        var left = -1 * scope.currentSlide * 156;
-
-        if(scope.currentSlide > 2) {
-          left = left - 20;
-        }
-
-        slider.css('margin-left', left +'px');
-      };
 
     }
   };

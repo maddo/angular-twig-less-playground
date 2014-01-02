@@ -1,9 +1,6 @@
 'use strict';
 app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', '$resource', '$routeParams', function ($scope, $location, $rootScope, $resource, $routeParams) {
 
-  //page title change
-  $rootScope.$emit('changeTitle', "I am a chess barbarian! What is your chess personality? Take the quiz to find out?");
-
   var personality = $resource('/scripts/personalities.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
   });
@@ -18,8 +15,12 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
       
       if(tmpPersonality.url === $routeParams.type) {
         tmpPersonality.lastName = tmpPersonality.player.split(" ")[1];
+        
         $scope.personality = tmpPersonality;
         $scope.currentPersonalityIndex = i;
+
+          //page title change
+          $rootScope.$emit('changeTitle', "I am a chess " + tmpPersonality.type.toLowerCase() + "! What is your chess personality? Take the quiz to find out?");
 
         //set user's score to view
         //if user toke test

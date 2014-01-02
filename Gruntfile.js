@@ -33,13 +33,12 @@ module.exports = function (grunt) {
           cwd: '<%= paths.app %>',
           dest: '<%= paths.tmp %>',
           src: [
-            '*.{ico,png,txt,php}',
+            '*.{ico,png,txt,php,html}',
             'scripts/**/*',
             'views/**/*',
             'images/**/*',
             'fonts/*',
             'styles/**/*.css',
-            'Twig/**/*',
             '.htaccess',
             'favicon.ico'
           ]
@@ -53,7 +52,7 @@ module.exports = function (grunt) {
       },
       copy: {
         files: [
-          '<%= paths.app %>/*.{ico,png,txt,php}',
+          '<%= paths.app %>/*.{ico,png,txt,php,html}',
           '<%= paths.app %>/scripts/**/*',
           '<%= paths.app %>/views/**/*',
           '<%= paths.app %>/images/**/*',

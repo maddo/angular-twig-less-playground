@@ -14,6 +14,7 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
             index = scope.currentIndex + slidesNumber,
             slides = [];
         
+        // select 5 items 2 before current and 2 after
         for(var i = index - 2; i < index + 3; i++) {
           slides.push(scope.personalities[i%slidesNumber]);
         }

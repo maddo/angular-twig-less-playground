@@ -7,7 +7,8 @@ var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'Facebook
     $routeProvider
 
     .when('/', {
-      templateUrl: '/views/home.html'
+      templateUrl: '/views/home.html',
+      controller: 'HomeController'
     })
 
     .when('/test', {

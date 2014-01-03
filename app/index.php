@@ -68,7 +68,7 @@
       
       <p class="to-left">
         <img src="/images/footer-logo.png" width="87" height="28" class="to-left" />
-        -
+        <span>-</span>
         <a href="http://chess.com" title="Play chess now for free with over 8 million players of all personality types!">
           Play chess now for free with over 8 million players of all personality types!
         </a>

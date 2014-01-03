@@ -9,16 +9,24 @@
     &:hover,
     &:focus { color: darken(#fafafa, 20%); }
   }
+
+  @media(max-width: @mobile) { text-align: center; }
 }
 
 .logo {
   .font-headers;
   font-size: 30px;
   line-height: 60px;
+
+  @media(max-width: @mobile) {
+    display: block;
+    text-align: center;
+    float: none;
+  }
 }
 
 .header-socials {
-
+  
   li {
     display: inline-block;
     text-align: right;
@@ -39,4 +47,6 @@
 
     &.gplus { font-size: 44px; }
   }
+
+   @media(max-width: @mobile) { display: none; }
 }

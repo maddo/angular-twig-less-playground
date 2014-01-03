@@ -23,10 +23,25 @@
   width: 431px;
 }
 
+@media(max-width: @mobile) {
+
+  .column-right,
+  .column-left {
+    float: none;
+    width: auto;
+  }
+}
+
 .stats {
   margin: 0 0 20px;
+
+  @media(max-width: @mobile) { margin: 0 0 10px; }
   
-  &:last-of-type { margin: 0 0 35px; }
+  &:last-of-type {
+    margin: 0 0 35px;
+    
+    @media(max-width: @mobile) { margin: 0 0 17px; }
+  }
 }
 
 

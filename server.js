@@ -7,7 +7,7 @@ if(app.settings.env === 'development') {
   app.use(express.static(__dirname + '/.tmp'));
   app.use(express.logger('dev'));
 } else if(app.settings.env === 'production') {
-  app.use(express.static(__dirname + '/dist'));
+  app.use(express.static(__dirname + '/.tmp'));
 }
 
 app.use(function(req, res) {

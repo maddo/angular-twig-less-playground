@@ -41,7 +41,7 @@ app.directive('scoreStats', [function() {
         
         setTimeout(function(){
           pointer.fadeIn(100);
-        },100);
+        },200);
         
       });
     }

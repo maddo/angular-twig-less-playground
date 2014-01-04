@@ -7,6 +7,7 @@
   img { 
     margin: -10px 6px 0 0;
     @media(max-width: @mobile) { float: none; }
+    @media(max-width: @tablet) { float: none; }
   }
 
   a {
@@ -33,11 +34,34 @@
       }
     }
   }
+
+  @media(max-width: @tablet) {
+
+    p {
+      float: none;
+      text-align: center;
+      
+      span { display: none; }
+      
+      a {
+        display: block;
+        float: none;
+        margin: 10px 0;
+        line-height: 18px;
+      }
+    }
+  }
 }
 
 .footer-links {
 
   @media(max-width: @mobile) {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  @media(max-width: @tablet) {
     float: none;
     margin: 0 auto;
     text-align: center;

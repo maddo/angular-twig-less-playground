@@ -4,6 +4,8 @@ var express  = require('express'),
 app.use(require('prerender-node'));
 app.use(express.logger('dev'));
 
+console.log(app.settings.env);
+
 if(app.settings.env === 'development') {
   app.use(express.static(__dirname + '/.tmp'));
 } else if(app.settings.env === 'production') {

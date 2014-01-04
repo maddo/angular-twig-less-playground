@@ -41,10 +41,10 @@
           <a ng-href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://chess-personality.herokuapp.com/type/{{personality.url}}&p[images][0]=http://chess-personality.herokuapp.com/images/sharing-image.png&p[title]={{page.title}}" title="Share on Facebook" class="square blue button" target="_blank">
             <span class="icon facebook"></span>
           </a>
-          <a ng-href="https://twitter.com/intent/tweet?url=http://chess-personality.herokuapp.com/type/{{personality.url}}" title="Share on Twitter" class="square azure button" target="_blank">
+          <a ng-href="https://twitter.com/home?status={{page.title}} http://chess-personality.herokuapp.com/type/{{personality.url}}" title="Share on Twitter" class="square azure button" target="_blank">
             <span class="icon twitter"></span>
           </a>
-          <a ng-href="http://reddit.com/submit?url=http://chess-personality.herokuapp.com/type/{{personality.url}}" title="Share on Reddit" class="square teal button" target="_blank">
+          <a ng-href="http://reddit.com/submit?url=http://chess-personality.herokuapp.com/type/{{personality.url}}&title={{page.title}}" title="Share on Reddit" class="square teal button" target="_blank">
             <span class="icon reddit"></span>
           </a>
           <a ng-href="https://plus.google.com/share?url=http://chess-personality.herokuapp.com/type/{{personality.url}}" title="Share on Google+" class="square red button" target="_blank">

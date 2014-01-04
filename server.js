@@ -1,8 +1,6 @@
 var express  = require('express'),
     app = express();
-
-app.use(require('prerender-node').set('prerenderToken', 'RkX3xDFLbDC5VnswXtBl'));
-
+    
 app.use(express.logger('dev'));
 app.use(express.static(__dirname + '/tmp'));
 

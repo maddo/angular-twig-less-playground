@@ -9,6 +9,8 @@ app.directive('scoreStats', [function() {
       scope.labelLeft = attrs.labelLeft;
       scope.labelRight = attrs.labelRight;
 
+      pointer.hide();
+      
       scope.$watch('score', function(oldVal, newVal){
 
         var score = scope.score,

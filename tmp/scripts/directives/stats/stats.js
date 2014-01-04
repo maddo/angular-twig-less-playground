@@ -28,7 +28,7 @@ app.directive('scoreStats', [function() {
         
         left = (score/100)*containerWidth;
 
-        if(score == 0) {
+        if(score === 0) {
           pointer.addClass('min');
         }
 
@@ -39,7 +39,10 @@ app.directive('scoreStats', [function() {
 
         pointer.css('left', left + 'px');
         
-        pointer.fadeIn(100);
+        setTimeout(function(){
+          pointer.fadeIn(100);
+        },100);
+        
       });
     }
   };

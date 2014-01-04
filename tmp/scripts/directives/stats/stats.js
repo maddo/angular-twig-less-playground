@@ -10,7 +10,7 @@ app.directive('scoreStats', [function() {
       scope.labelRight = attrs.labelRight;
 
       pointer.hide();
-      
+
       scope.$watch('score', function(oldVal, newVal){
 
         var score = scope.score,
@@ -43,6 +43,8 @@ app.directive('scoreStats', [function() {
         
         pointer.fadeIn(100);
       });
+
+      pointer.fadeIn(100);
     }
   };
 }]);

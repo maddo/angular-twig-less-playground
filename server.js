@@ -9,11 +9,14 @@ app.use(function(req, res) {
   var crawlers = [
     'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)',
     'facebookexternalhit/1.1 (+https://www.facebook.com/externalhit_uatext.php)',
+    'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+    '(compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
+
   ];
 
   var ua = req.headers['user-agent'];
 
-  console.log('Index: ' + crawlers.indexOf(ua));
+  console.log(ua);
 
   if(crawlers.indexOf(ua) !== -1){
     console.log(__dirname + '/tmp/snapshots/' + req.path.replace(/\//g, '_') + '.html');

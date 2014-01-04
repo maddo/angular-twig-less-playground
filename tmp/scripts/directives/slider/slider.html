@@ -1,0 +1,20 @@
+  <div class="slider" ng-swipe-left="changeSlide('next');" ng-swipe-right="changeSlide('prev');">
+  
+    <a class="arrow prev-slide" ng-href="/type/{{slides[1].url}}">,</a>
+    <a class="arrow next-slide" ng-href="/type/{{slides[3].url}}">.</a>
+    
+    <div class="slider-container" ng-swipe-left="alert('bbb');">
+
+      <ul class="slider-list" ng-swipe-left="alert('cccc');">
+
+        <li class="slider-list-item" ng-repeat="slide in slides" ng-class="{active: $index == 2}">
+          <a ng-href="/type/{{slide.url}}" class="slider-list-item-link {{slide.url}}" title="{{slide.type}}">
+            <span>{{slide.type}}</span>
+          </a>
+        </li>
+
+      </ul>
+    
+    </div>
+
+  </div>

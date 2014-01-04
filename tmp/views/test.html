@@ -1,0 +1,37 @@
+<div  ng-class="{withImage: question.image}">
+
+  <div class="question-header top">
+      
+    <test-progress steps="questionsNumber" current-step="questionIndex"></test-progress>
+    
+    <div class="container clearfix" ng-class="{narrow: !question.image}">
+
+      <div class="question clearfix">
+        <span ng-bind-template="{{questionIndex + 1}}" class="question-number"></span>
+        <h1 class="question-label">
+          <span ng-bind-template="{{question.question}}"></span>
+        </h1>
+      </div>
+
+      <img ng-src="/images/questions/{{question.image}}" alt="{{question.question}}" ng-show="question.image" class="question-image"/>
+
+    </div>
+
+  </div>
+    
+  <div class="container answers" ng-class="{narrow: !question.image}">
+    
+    <ul>
+
+      <li ng-repeat="answer in question.answers" class="answer clearfix">
+        <button class="square orange button answer-button" ng-bind-template="{{answerLabel($index)}}" ng-click="response($index);"></button>
+        <p class="answer-label">
+          <span ng-bind-template="{{answer.answer}}"></span>
+        </p>
+      </li>
+      
+    </ul>
+
+  </div>
+
+</div>

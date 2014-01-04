@@ -1,0 +1,444 @@
+{
+  "personalities": [
+    {
+      "type": "Anaconda",
+      "player": "Aaron Nimzowitsch",
+      "playerDescription": "Aron Nimzowitsch (1886-1935) was one of the best players never to become world champion and was among the leading players in the world for several decades. His legacy, however, is mostly as a theoretician of chess strategy. In his writing (which is still very influential today) he laid out his \"system\" of chess strategy which emphasizes preventing your opponent's plans through such concepts as blockade, overprotection, and prophylaxis. In his own play he showed his \"Anaconda\" style - a positional, indirect aggression, which seeks to further his plans by preventing those of his opponent.",
+      "otherPlayers": "",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C46_Four_Knights_Game",
+          "label": "Four Knights"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/A09_Reti_Opening",
+          "label": "Reti System"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C00_French_Defense",
+          "label": "French Defense"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/B10_Caro_Kann_Defense",
+          "label": "Caro-Kann"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Nimzowitsch+Aaron&sort=1",
+      "description": "Anacondas may seem peaceful on the exterior, but the Anaconda is always preparing something menacing - a deep positional squeeze, typical of the big snake. Anacondas usually reject obvious and direct play, and instead prefer to build up positional pressure. They tend to be very attached to their own ideas, almost to the point of seeming like the result of the game is secondary. But don't be fooled: once an Anaconda has you in his grip, you will be very lucky to escape.",
+      "stats": "positional, aggressive, intuitive, emotional",
+      "image": "aaron-nimzowitsch.jpg",
+      "url": "anaconda"
+    },
+    {
+      "type": "Assassin",
+      "player": "Robert J Fischer",
+      "playerDescription": "Bobby Fischer (1943-2008), the eleventh World Chess Champion, was one deadly Assassin. One of the most dominant players of all time, the American became a grandmaster at the age of only fifteen and eventually took the world championship in a 1972 match with Boris Spassky. Fischer's perfect composure, along with accurate calculation and great will to win, caused his opponents to crumble. Fischer's opening repertoire was very limited, but also very sharp and very well prepared. All in all, Bobby Fischer was a chess machine long before actual chess engines could play at anywhere near that level.",
+      "otherPlayers": "Polgar",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B90_Sicilian_Defense_Najdorf_Variation",
+          "label": "Sicilian Defense (Najdorf)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/E61_Kings_Indian_Defense_3.Nc3",
+          "label": "King's Indian"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Fischer+Robert+J&sort=1",
+      "description": "Assassins are all about controlled aggression. They tend to play sharp openings (especially 1.e4 as white) and look to attack the opponent's King. But their attacks are not wild or careless - everything is still governed by the objective demands of the position and exact calculation.  Assassins tend to play \"against the pieces\" rather than \"against the opponent\". They won't alter their own play to try to take advantage of the opponent's psychology.",
+      "stats": "attacking, aggressive, calculating, calm",
+      "image": "bobby-fischer.jpg",
+      "url": "assassin"
+    },
+    {
+      "type": "Barbarian",
+      "player": "Hikaru Nakamura",
+      "playerDescription": "Hikaru Nakamura (born 1987), the American grandmaster, exemplifies the typical Barbarian. Constantly seeking complications and fighting to win in every game, the former child prodigy has ranked as high as #3 in the world rankings. Nakamura is a very emotional player, as can be seen just by watching his facial expressions as he plays. He takes losses very hard, but this doesn't prevent him from taking risks to go for the win in any position. A player with lightning-quick calculating ability and a very wide opening repertoire, his previous use of the extremely brash 1.e4 e5 2.Qh5?! solidifies his position as a chess Barbarian.",
+      "otherPlayers": "Topalov",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Nakamura+Hikaru&sort=1",
+      "description": "Barbarians do not mess around. They hunt the opponent's king from the beginning to the end of the game. They are attacking players who are willing to accept lots of risk, calculating complications and dangers that make their opponents squirm. Barbarians put their heart into the game - a typical Barbarian might get upset if something goes wrong in a tournament and have a disaster, or, on the other hand, ride an unstoppable wave of success when things go right. Barbarians aren't usually the type to offer draws, and their main goal is to create unusual and complicated situations on the board in which they can out-calculate their opponent.",
+      "stats": "attacking, aggressive, calculating, emotional",
+      "image": "hikaru-nakamura.jpg",
+      "url": "barbarian"
+    },
+    {
+      "type": "Champion",
+      "player": "Garry Kasparov",
+      "playerDescription": "Garry Kasparov (born 1963), thirteenth World Champion, typifies the chess style of a true Champion. A tireless worker, he brought opening preparation to a new level, often deeply analyzing openings far into the middlegame. Kasparov had unique understanding of dynamics and often showed that seemingly-surprising positional sacrifices were correct. From 1986 until his retirement in 2005 he was almost constantly the highest-rated player in the world, and he held the world championship title from 1985 until 2000 - so it is not surprising that his style was that of a Champion.",
+      "otherPlayers": "Short",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Kasparov+Garry&sort=1",
+      "description": "Champions are great fighters who play for the attack but don't like to take undue risks. They are emotional players who use those emotions to increase the intensity of the game for themselves and for their opponents. Deep, profound calculations that get at the heart of the position are their forte. Champions are universal players, and they won't go wild looking for a win if its just not there. They are quite willing to play a quiet endgame if that is what the position demands.",
+      "stats": "attacking, solid, calculating, emotional",
+      "image": "garry-kasparov.jpg",
+      "url": "champion"
+    },
+    {
+      "type": "Escape Artist",
+      "player": "Viktor Korchnoi",
+      "playerDescription": "Viktor Korchnoi (born 1931), seen by many as the best player never to become a World Champion, is the quintessential Escape Artist on the chess board. Playing quiet openings such as the French defense and English opening, he tends to increase the tension in subtle ways, often forcing his opponent to sacrifice. Korchnoi is foremost a calculating player, often looking for exceptions from the rules of positional harmony and always willing to call his opponent's bluff. A player with enormous fighting ability, a large part of his success can be attributed to his great will to win. In other ways Korchnoi is an Escape Artist as well: in 1976 he defected from the Soviet Union, and in recent times he seems to have escaped from old age as well, being rated in the top 100 of the world until the age of 75.",
+      "otherPlayers": "",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/A10_English_Opening",
+          "label": "English Opening"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C00_French_Defense",
+          "label": "French Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Korchnoi+Viktor&sort=1",
+      "description": "Escape Artists like quiet, positional play, but somehow seem to end up in tense, nerve-wracking, and sharp struggles. Why does this happen? Because the Escape Artist, by threatening to grind his opponent down in quiet, positional ways, forces his opponent to counterattack, sacrifice, and take risks. The Escape Artist often doesn't prevent his opponent's attack, but actually welcomes it and entices it. Then the complications and danger begin, and the Escape Artist's phenomenal calculating power comes to the forefront.",
+      "stats": "positional, solid, calculating, emotional",
+      "image": "viktor-korchnoi.jpg",
+      "url": "escape-artist"
+    },
+    {
+      "type": "Genius",
+      "player": "Jose Raul Capablanca",
+      "playerDescription": "Jose Raul Capablanca (1888-1942) of Cuba, the third world champions, was a prototypical Genius. Preferring solid, positional play and excelling in endgames, Capablanca had a simple, clear style and chose his moves largely by intuition. Capablanca was so hard to beat that he only lost 34 serious games as an adult and was undefeated from 1916 until 1924. Genius!",
+      "otherPlayers": "Petrosian",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D60_Queens_Gambit_Declined_Orthodox_Defense",
+          "label": "Queen's Gambit Declined (Orthodox Defense)"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Capablanca+Jose+Raul&sort=1",
+      "description": "Geniuses seem to decide their moves by pure divination. With little or no calculation, they decide where to put their pieces and then simply put them there. The Genius just feels the pulse of the position. His combinations are usually short, simple, but transform the game in a deadly way. The Genius doesn't seek complications and thus draws quite a few games, but rarely loses. Sometimes he seems to get bored of chess, but this is actually an illusion - he cares about it more than anything.",
+      "stats": "positional, solid, intuitive, emotional",
+      "image": "jose-raul-capablanca.jpg",
+      "url": "genius"
+    },
+    {
+      "type": "Grinder",
+      "player": "Anatoly Karpov",
+      "playerDescription": "Anatoly Karpov (born 1951), twelfth World Champion and superb positional player, is one of the most successful Grinders of all time. Not only did he hold the world title for 10 years, but in order to prove himself after Fischer disappeared, he played in as many tournaments as he could and amassed the most impressive win total and tournament resume of any player in history. During his prime, Karpov was famous for declining draws in worse positions, confident that he would play well enough to never lose them - all while giving his opponents ample opportunity to blow the game as they got ground down by the long game and his intense will to win!",
+      "otherPlayers": "",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B10_Caro_Kann_Defense",
+          "label": "Caro-Kann"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Karpov+Anatoly&sort=1",
+      "description": "Grinders are players with an unassuming style that can hide just how intent they are on winning. They don’t need to know opening theory to beat you. They don’t need to have an advantage to beat you. They don’t even need to have an equal position to beat you. Grinders have good positional skills, and are usually most at home in endgames. They are attuned to their opponents’ weaknesses which they use against them. On the other hand, they often know their own strengths and limitations pretty objectively, and will make good practical decisions. It’s hard to take advantage of a Ginder’s weaknesses, and you won’t have much luck getting errors out of them by applying pressure.",
+      "stats": "positional, aggressive, intuitive, calm",
+      "image": "anatoly-karpov.jpg",
+      "url": "grinder"
+    },
+    {
+      "type": "Mad Scientist",
+      "player": "Wilhelm Steinitz",
+      "playerDescription": "Wilhelm Steinitz (1836-1900), the first World Champion, was a Mad Scientist. Beginning as an attacking player specializing in gambits (as was the style at the time), Steinitz eventually realized that chess obeys certain rules and principles, and that a player - regardless of how brilliant - could not circumvent those rules and force through a winning combination if his game was not well-founded. Steinitz's style changed into a positional and defensive one, in which he often accepted extremely passive positions to defend his theories, but also showed that brilliant results could be produced. His contemporaries initially didn't understand his play, seeing it as bizarre or even cowardly, but later his principles were accepted, and he is regarded as the father of modern chess theory.",
+      "otherPlayers": "",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C27_Vienna_Game",
+          "label": "Vienna Game"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/C30_Kings_Gambit",
+          "label": "King's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Steinitz+Wilhelm&sort=1",
+      "description": "Mad Scientists believe in justice and principles in chess, and use passion and calculating ability to prove their beliefs. The Mad Scientist is capable of carrying out brilliant attacks, but will only do so when he believes it is the right way - he won't normally play speculatively. More often that not the Mad Scientist is the one facing an attack, and he is willing to do that if he believes the attack is not objectively correct. Mad Scientists are also experimenters, trying different ways to expand the horizons in chess.",
+      "stats": "positional, solid, calculating, emotional",
+      "image": "william-steinitz.jpg",
+      "url": "mad-scientist"
+    },
+    {
+      "type": "Magician",
+      "player": "Mikhail Tal",
+      "playerDescription": "Mikhail Tal (1936-1992), the eighth world champion, was known as the \"Magician of Riga\". Tal was famous for his unpredictable, intuitive sacrifices - many of which were scarcely believable. Nevertheless, he set so many traps and problems for his opponents that they often worked in practice. Indeed, he once said: \"There are two types of sacrifices: correct ones, and mine.\" His play was all about creating complications and unusual situations. Although he sought sharp, crazy positions, he typically didn't out-calculate his opponents, but rather out-imagined them.",
+      "otherPlayers": "Shirov",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/E61_Kings_Indian_Defense_3.Nc3",
+          "label": "King's Indian"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Tal+Mikhail&sort=1",
+      "description": "Magicians are the ultimate attackers. Magicians don't care too much if their play is objectively correct - they prefer to follow their intuition and fancy, creating complications and confusing their opponent. A Magician sees chess as a creative art, and creative art cannot be held captive by stern and fixed principles. Magicians can calculate well, but they sometimes do so quickly and carelessly, using their calculation to support what their intuition tells them. Magicians enjoy the unusual and spectacular, and can often become bored by slow maneuvering.",
+      "stats": "attacking, aggressive, intuitive, emotional",
+      "image": "mikhail-tal.jpg",
+      "url": "magician"
+    },
+    {
+      "type": "Mastermind",
+      "player": "Alexander Alekhine",
+      "playerDescription": "Alexander Alekhine (1892-1946), the fourth world champion, was a true Mastermind. One of the greatest attacking players ever, Alekhine could produce spectacular combinations from positions which seemed to promise no such thing. His calculation ability was phenomenal, and his combinations often included deadly and unexpected surprises at the end of a series of obvious moves: the famous \"sting of the scorpion's tail\". Most important was his ability to build up an attacking position and create complications without taking undue risks himself. Alekhine held the world championship from 1927 until 1935, when he lost a match to Max Euwe, and then from 1937 (after beating Euwe in the return match) until his death in 1946.",
+      "otherPlayers": "Radjabov",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/C00_French_Defense",
+          "label": "French Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Alekhine+Alexander+A&sort=1",
+      "description": "Masterminds seek to master both their own emotions and to impose their reality on the chessboard. A Mastermind always seeks the right move, and believes that attacking is the right way. Typically choosing sharp openings, Masterminds win with fantastically deep calculations, producing combinations which are deeply hidden in correctly built-up positions. Masterminds thrive in complicated positions, where their accurate calculating ability and iron nerves give them the advantage.",
+      "stats": "attacking, solid, calculating, calm",
+      "image": "alexandre-alekhine.jpg",
+      "url": "mastermind"
+    },
+    {
+      "type": "Natural",
+      "player": "Viswanathan Anand",
+      "playerDescription": "Viswanathan Anand (born 1969), the classical world champion from 2007 to 2013, is a typical Natural player. Utilizing his intuitive feel for the game, early in his career Anand would sometimes defeat grandmasters while using only a few minutes on the clock. A player who is very much in control of his emotions, Anand seeks well-founded attacking play based on his intuitive understanding of the game.",
+      "otherPlayers": "Spassky",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/E12_Queens_Indian_Defense",
+          "label": "Queen's Indian"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Anand+Viswanathan&sort=1",
+      "description": "Naturals are well-rounded players who seek a healthy initiative, remain in control of their emotions and follow their intuition rather than constantly looking for exceptions to the rules of chess. A Natural seeks healthy openings and healthy positions. They don't usually win by trickery, but once they obtain an advantage they are all but unstoppable. Naturals place a high value on remaining calm and rarely get into time pressure or uncontrollable situations.",
+      "stats": "attacking, solid, intuitive, calm",
+      "image": "viswanathan-anand.jpg",
+      "url": "natural"
+    },
+    {
+      "type": "Prodigy",
+      "player": "Magnus Carlsen",
+      "playerDescription": "Magnus Carlsen (born 1990) of Norway, the current world champion, exemplifies the Prodigy. A universal player with an intuitive grasp of chess, much of Carlsen's success can be explained by his psychology which is completely unencumbered by fear. He rarely makes any kind of blunders, and plays on forever to try to win positions with the smallest advantage, or even equal ones. His endgame play is superb, and his constant pressing in every position eventually drives his opponents to make errors. Carlsen is currently the highest rated player in history.",
+      "otherPlayers": "Aronian",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D06_Queens_Gambit",
+          "label": "Queen's Gambit"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D80_Gruenfeld_Defense",
+          "label": "Grunfeld"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Carlsen+Magnus&sort=1",
+      "description": "The Prodigy is the ultimate sportsman. Prodigies play aggressively and fight for the win from the beginning to the end, but place the highest value on maintaining emotional control and utilizing every opportunity that comes their way. Prodigies are not out to prove any kinds of theories, or to create great works of art (though that often happens anyway); for Prodigies winning is everything… because winning is simply more fun.",
+      "stats": "attacking, solid, aggressive, calm",
+      "image": "magnus-carlsen.jpg",
+      "url": "prodigy"
+    },
+    {
+      "type": "Professional",
+      "player": "Mikhail Botvinnik",
+      "playerDescription": "Mikhail Botvinnik (1911-1995), the sixth world champion, was a clear example of the Professional. Botvinnik was the first top player to develop in the Soviet Union, and was thus considered to be the patriarch of Soviet chess. Botvinnik was one of the first to take a professional approach to preparing for competitions, which included a big emphasis on physical exercise, opening preparation, and deep analysis of his own and his opponent's games. Botvinnik took chess very seriously, but ironically considered himself not to be a full chess professional and worked as an engineer as well.",
+      "otherPlayers": "Grischuk",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/E20_Nimzo_Indian_Defense",
+          "label": "Nimzo-Indian"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/A10_English_Opening",
+          "label": "English Opening"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C15_French_Defense_Winawer_Variation",
+          "label": "French Defense (Winawer)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Botvinnik+Mikhail+M&sort=1",
+      "description": "Professionals are strategists who place a high value on the exactness of their game and rarely let their emotions get out of hand. Professionals like to keep things under control - they don't like to take undue risks, either by attacking the opponent or allowing themselves to be attacked. Instead, Professionals like to exploit long-term weaknesses. While they deal with long-term strategic and positional factors, they don’t rely on vague, intuitive judgments - for the Professional, chess is an exact, calculated science.",
+      "stats": "positional, solid, calculating, calm",
+      "image": "mikhail-botvinnik.jpg",
+      "url": "professional"
+    },
+    {
+      "type": "Romantic",
+      "player": "Vassily Ivanchuk",
+      "playerDescription": "Vassily Ivanchuk (born 1969), the Ukrainian grandmaster, is a good example of a modern-day Romantic. A moody, brilliant genius, Ivanchuk is capable of beating anybody on the right day, but his results can be erratic. Ivanchuk's play is typified by its great humanity, and many call him one of the most talented players ever, ranking as high as #2 in the world at one point. Anand said of him: \"You never know which mood he is going to be in. Some days he will treat you like his long-lost brother. The next day he ignores you completely. His playing style is unpredictable and highly original, making him more dangerous but sometimes leading to quick losses as well.\"",
+      "otherPlayers": "",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Ivanchuk+Vassily&sort=1",
+      "description": "Romantics are full of good ideas. These ideas might be either positional or attacking, but they are always unusual and unique. The Romantic doesn't usually win by out-calculating his opponent, but rather finds some unexpected and unusual concept that his opponent didn't expect. Romantic players are very emotional and therefore can be very distraught when they lose, but their moodiness also means that when things are going well, they can be unstoppably brilliant.",
+      "stats": "attacking, solid, intuitive, emotional",
+      "image": "vassily-ivanchuk.jpg",
+      "url": "romantic"
+    },
+    {
+      "type": "Surgeon",
+      "player": "Emanuel Lasker",
+      "playerDescription": "Emanuel Lasker (1868-1941), the second world champion, was one of the most successful Surgeons. The longest reigning world champion (27 years), Lasker's style was mysterious to his contemporaries. He was described as having a \"psychological\" style of play, which confused his opponents. But in fact he was simply ahead of them in his understanding of the dynamics of chess. Lasker understood how to create counterplay, how to change the theater of battle when one part of the board was weak, and how to transform advantages. His defensive and endgame technique were the key to his great results.",
+      "otherPlayers": "",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/C60_Spanish_Game",
+          "label": "Ruy Lopez (Spanish)"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D60_Queens_Gambit_Declined_Orthodox_Defense",
+          "label": "Queen's Gambit Declined (Orthodox Defense)"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Lasker+Emanuel&sort=1",
+      "description": "Surgeons are tricky, practical players who use positional play to fight for a win in all positions. They don't usually gain big advantages early in the game, and sometimes even get worse positions; but the Surgeon is clever and knows how to fight. With great nerves and calculating ability, a Surgeon will uncover every hidden resource available to bring the game to a favorable conclusion.",
+      "stats": "positional, aggressive, calculating, calm",
+      "image": "emanuel-lasker.jpg",
+      "url": "surgeon"
+    },
+    {
+      "type": "Technician",
+      "player": "Vladimir Kramnik",
+      "playerDescription": "Vladimir Kramnik (born 1975) of Russia, the fourteenth world champion, is the ultimate Technician. Known for his great endgame skills and excellent opening knowledge, Kramnik became the world champion by defeating Garry Kasparov, who had reigned for fifteen years. Despite being seen as unstoppable, Kasparov was unable to win a single game against Kramnik's iron play in their London 2000 match, while Kramnik exploited small mistakes to win two games.",
+      "otherPlayers": "Smyslov, Gelfand",
+      "openingsWhite": [
+        {
+          "link": "http://www.chess.com/opening/eco/A10_English_Opening",
+          "label": "English Opening"
+        }
+      ],
+      "openingsBlack": [
+        {
+          "link": "http://www.chess.com/opening/eco/B20_Sicilian_Defense",
+          "label": "Sicilian Defense"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/D43_Semi_Slav_Defense",
+          "label": "Semi-Slav"
+        },
+        {
+          "link": "http://www.chess.com/opening/eco/C42_Russian_Game",
+          "label": "Petrov Defense"
+        }
+      ],
+      "link": "http://www.chess.com/games/search?p1=Kramnik+Vladimir&sort=1",
+      "description": "Technicians are the quietest and calmest chess players. Strategists who rarely attack directly and prefer to quietly exploit positional advantages, Technicians utilize their exceptional intuition to guide their positional play. Rarely losing control, the Technician exploits almost invisible positional weaknesses to win in the endgame. Technicians do not like to take many risks, and therefore rarely lose - but also win less than more aggressive players.",
+      "stats": "positional, solid, intuitive, calm",
+      "image": "vladimir-kramnik.jpg",
+      "url": "technician"
+    }
+  ]
+}

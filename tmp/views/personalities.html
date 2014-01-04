@@ -1,0 +1,108 @@
+<section class="top personalities-header">
+  <h1 class="personalities-header-title" ng-show="afterTest">— Your Chess Personality —</h1>
+  <personalities-slider personalities="personalities" current-index="currentPersonalityIndex"></personalities-slider>
+
+</section>
+
+<section class="results-content">
+
+  <div class="container clearfix">
+  
+    <div class="bio column-left">
+      
+      <p>{{personality.description}}</p>
+
+      <h1>{{personality.player}} is a {{personality.type}}</h1>
+
+      <p>
+        <img ng-src="/images/players/{{personality.image}}" alt="{{personality.player}}" width="140" height="140" />
+        {{personality.playerDescription}}
+      </p>
+      
+      <p class="more">
+        <a ng-href="{{personality.link}}" title="Explore {{personality.lastName}}'s Games">
+          Explore {{personality.lastName}}'s Games
+        </a>
+      </p>
+
+    </div>
+
+    <div class="column-right">
+
+      <score-stats label-left="Attacking" label-right="Positional" score="scores.positional"></score-stats>
+      <score-stats label-left="Aggressive" label-right="Solid" score="scores.solid"></score-stats>
+      <score-stats label-left="Intuitive" label-right="Calculating" score="scores.calculating"></score-stats>
+      <score-stats label-left="Emotional" label-right="Calm" score="scores.calm"></score-stats>
+      
+      <div ng-show="afterTest">
+        <h2>Share Your Results:</h2>
+        
+        <div class="buttons-set share-buttons">
+          <a ng-href="https://www.facebook.com/sharer/sharer.php?u=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Facebook" class="square blue button" target="_blank">
+            <span class="icon facebook"></span>
+          </a>
+          <a ng-href="https://twitter.com/intent/tweet?url=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Twitter" class="square azure button" target="_blank">
+            <span class="icon twitter"></span>
+          </a>
+          <a ng-href="http://reddit.com/submit?url=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Reddit" class="square teal button" target="_blank">
+            <span class="icon reddit"></span>
+          </a>
+          <a ng-href="https://plus.google.com/share?url=http://chess.dev.suchego.pl/type/{{personality.url}}" title="Share on Google+" class="square red button" target="_blank">
+            <span class="icon gplus"></span>
+          </a>
+        </div>
+      </div>
+
+      <h2>Recommended Openings</h2>
+
+      <ul class="openings">
+
+        <li>
+          White:
+          <span ng-repeat="opening in personality.openingsWhite">
+            <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template=" {{opening.label}}"></a><span ng-show="{{$index < (personality.openingsWhite.length - 1)}}">;</span>
+          </span>
+        </li>
+        
+        <li>
+          Black:
+          <span ng-repeat="opening in personality.openingsBlack">
+            <a ng-href="{{opening.link}}" title="{{opening.label}}" ng-bind-template=" {{opening.label}}"></a><span ng-show="{{$index < (personality.openingsBlack.length - 1)}}">;</span>
+          </span>
+        </li>
+
+      </ul>
+
+      <h2>
+        <span ng-show="afterTest">These friends share your Chess Personality:</span>
+        <span ng-hide="afterTest">These friends have this Chess Personality:</span>
+      </h2>
+
+      <div class="fb-like" data-href="http://chess.dev.suchego.pl/type/{{personality.url}}" data-layout="standard" data-action="like" data-show-faces="true" data-share="false" data-width="310"></div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="results-action">
+
+  <div class="container">
+
+    <p class="play-chess" ng-show="afterTest">
+      Ready for game?
+      <a href="http://chess.com" class="orange button" title="Play Chess">Play Chess</a>
+      free on the #1 chess site.
+    </p>
+  
+    <p class="take-test" ng-hide="afterTest">
+      What kind of hess player are you?
+      <a href="/test" class="orange button" title="Take the Quiz">Take the Quiz</a>
+      Find best openings and like players.
+    </p>
+
+  </div>
+
+</div>
+

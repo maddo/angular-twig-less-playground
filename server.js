@@ -13,8 +13,8 @@ app.use(function(req, res) {
 
   var ua = req.headers['user-agent'];
 
-  console.log(ua);
-  
+  console.log('Index: ' + crawlers.indexOf(ua));
+
   if(crawlers.indexOf(ua) !== -1){
     res.sendfile(__dirname + '/tmp/snapshots/' + req.path.replace(/\//g, '_') + '.html');
   } else {

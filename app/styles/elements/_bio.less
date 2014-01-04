@@ -7,7 +7,11 @@
 
     &:first-child { margin: 0 0 34px; }
 
-    &.more { margin: 0; }
+    &.more {
+      margin: 0;
+      
+      @media(max-width: @mobile) { margin: 0 0 20px; }
+    }
   }
 
   img {

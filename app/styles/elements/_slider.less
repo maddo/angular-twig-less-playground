@@ -25,6 +25,12 @@
 
     &.next-slide { right: -8px; }
   }
+
+  @media(max-width: @mobile) {
+    width: 170px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .slider-container {
@@ -32,11 +38,21 @@
   height: 100%;
   overflow: hidden;
   margin: 0 auto;
+
+  @media(max-width: @mobile) {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .slider-list {
   width: 2700px;
   height: 100%;
+      
+  @media(max-width: @mobile) {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .slider-list-item {
@@ -64,6 +80,12 @@
         border-radius: 90px;
       }
     }
+  }
+
+  @media(max-width: @mobile) {
+    display: none;
+
+    &:nth-child(3) { display: inline-block; }
   }
 }
 

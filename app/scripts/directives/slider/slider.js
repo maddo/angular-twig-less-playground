@@ -20,6 +20,17 @@ app.directive('personalitiesSlider', ['$location', '$routeParams', function(loca
         }
 
         scope.slides = slides;
+
+        scope.changeSlide = function(dir){
+
+          if(dir == 'next') {
+            var type = slides[3].url;
+          } else {
+            var type = slides[1].url;
+          }
+
+          location.path('/type/' + type).replace();
+        };
       });
 
     }

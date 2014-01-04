@@ -74,7 +74,9 @@
 
 .results-content {
   padding: 47px 0 45px;
- 
+
+  @media(max-width: @mobile) { padding: 24px 0 23px; }
+
   h1 {
     .font-headers;
     font-weight: normal;
@@ -89,6 +91,8 @@
     color: #252525;
     font-weight: normal;
     margin: 0 0 18px;
+
+    @media(max-width: @mobile) { line-height: 25px; }
   }
 }
 
@@ -130,8 +134,34 @@
   border-top: solid 1px #e5e5e5;
   padding: 30px 0;
   font-size: 20px;
+  
+  @media(max-width: @mobile) {
+    font-size: 19px;
+    line-height: 24px;
+  }
 
   .play-chess { padding-left: 100px };
 
-  .button { margin: 0 28px; }
+  .button {
+    margin: 0 28px;
+
+    @media(max-width: @mobile) {
+      margin: 13px auto;
+      display: block;
+      max-width: 197px;
+    }
+  }
+}
+
+@media(max-width: @mobile) {
+
+  .fb_iframe_widget { 
+
+    &,
+    & > span,
+    iframe {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
 }

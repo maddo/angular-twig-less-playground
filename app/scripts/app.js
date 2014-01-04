@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'FacebookPluginDirectives'])
+var app = angular.module('ChessPersonality', ['ngResource', 'ngRoute', 'ngTouch', 'FacebookPluginDirectives'])
 
   .config(function($routeProvider, $locationProvider){
 

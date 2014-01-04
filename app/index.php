@@ -99,6 +99,7 @@
   <script src="/scripts/vendor/angular/angular.min.js"></script>
   <script src="/scripts/vendor/angular-route/angular-route.min.js"></script>
   <script src="/scripts/vendor/angular-resource/angular-resource.min.js"></script>
+  <script src="/scripts/vendor/angular-touch/angular-touch.min.js"></script>
   <script src="/scripts/vendor/facebook-plugin-directives/facebook-plugin-directives.js"></script>
   <script src="/scripts/app.js"></script>
   <script src="/scripts/controllers/app.js"></script>

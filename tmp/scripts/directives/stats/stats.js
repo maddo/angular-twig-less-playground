@@ -9,7 +9,7 @@ app.directive('scoreStats', [function() {
       scope.labelLeft = attrs.labelLeft;
       scope.labelRight = attrs.labelRight;
 
-      
+
       scope.$watch('score', function(oldVal, newVal){
 
         var score = scope.score,
@@ -40,7 +40,10 @@ app.directive('scoreStats', [function() {
 
         pointer.css('left', left + 'px');
         
-        pointer.fadeIn(100);
+        $setTimeout(function() {
+          pointer.fadeIn(100);
+        }, 100);
+        
       });
     }
   };

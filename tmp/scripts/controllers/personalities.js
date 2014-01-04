@@ -20,7 +20,7 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
         $scope.currentPersonalityIndex = i;
 
           //page title change
-          $rootScope.$emit('changeTitle', "I am a chess " + tmpPersonality.type.toLowerCase() + "! What is your chess personality? Take the quiz to find out?");
+          $rootScope.$emit('changeMeta', {type: tmpPersonality.type.toLowerCase(), url: tmpPersonality.url});
 
         //set user's score to view
         //if user toke test

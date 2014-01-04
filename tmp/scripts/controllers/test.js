@@ -3,7 +3,7 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
 
   $rootScope.$emit('changeTitle', 'What is your Chess Personality!? Take the 20 question quiz to find out!');
 
-  var questions = $resource('/scripts/questions.json', {}, {
+  var questions = $resource('/scripts/data/questions.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
   });
 

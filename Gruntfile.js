@@ -62,6 +62,40 @@ module.exports = function (grunt) {
         tasks: ['copy:dev']
       }
 
+    },
+    htmlSnapshot: {
+      all: {
+        options: {
+          snapshotPath: '<%= paths.tmp %>/snapshots/',
+          sitePath: 'http://localhost:5000',
+          removeScripts: true,
+          removeLinkTags: true,
+          fileNamePrefix: '',
+          sanitize: function (requestUri) {
+            return requestUri.replace(/\//g, '_');
+          },
+          urls: [
+            '/',
+            '/test',
+            '/type/anaconda',
+            '/type/assassin',
+            '/type/barbarian',
+            '/type/champion',
+            '/type/escape-artist',
+            '/type/genius',
+            '/type/grinder',
+            '/type/mad-scientist',
+            '/type/magician',
+            '/type/mastermind',
+            '/type/natural',
+            '/type/prodigy',
+            '/type/professional',
+            '/type/romantic',
+            '/type/surgeon',
+            '/type/technician'
+          ]
+        }
+      }
     }
   });
 
@@ -73,4 +107,5 @@ module.exports = function (grunt) {
   ]);
 
   grunt.loadNpmTasks('grunt-contrib');
+  grunt.loadNpmTasks('grunt-html-snapshot');
 };

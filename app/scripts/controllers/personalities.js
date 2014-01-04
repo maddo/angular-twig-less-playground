@@ -1,7 +1,7 @@
 'use strict';
 app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', '$resource', '$routeParams', function ($scope, $location, $rootScope, $resource, $routeParams) {
 
-  var personality = $resource('/scripts/personalities.json', {}, {
+  var personality = $resource('/scripts/data/personalities.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
   });
 

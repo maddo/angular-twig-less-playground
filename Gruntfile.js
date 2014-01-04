@@ -4,7 +4,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     paths: {
       app: './app',
-      tmp: '.tmp',
+      tmp: 'tmp',
       dist: './dist'
     },
     clean: {

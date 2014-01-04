@@ -16,8 +16,8 @@ app.use(function(req, res) {
   console.log('Index: ' + crawlers.indexOf(ua));
 
   if(crawlers.indexOf(ua) !== -1){
-    res.sendfile(__dirname + '/tmp/snapshots/' + req.path.replace(/\//g, '_') + '.html');
-    console.log('Facebook!!');
+    console.log(__dirname + '/tmp/snapshots/' + req.path.replace(/\//g, '_') + '.html');
+    return res.sendfile(__dirname + '/tmp/snapshots/' + req.path.replace(/\//g, '_') + '.html');
   } else {
     return res.redirect(req.protocol + '://' + req.get('Host') + '/#' + req.url);
   }

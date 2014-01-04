@@ -11,7 +11,7 @@ app.use(function(req, res) {
     'facebookexternalhit/1.1 (+https://www.facebook.com/externalhit_uatext.php)',
     'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
     '(compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)',
-    'Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)'
+    'Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google (+https://developers.google.com/+/web/snippet/)',
     'Yahoo:LinkExpander:Slingstone',
     'Mozilla/5.0 (compatible; Butterfly/1.0; +http://labs.topsy.com/butterfly/) Gecko/2009032608 Firefox/3.0.8',
     'NING/1.0',

@@ -17,14 +17,14 @@
   float: left;
   width: 455px;
 
-  @media(max-width: @tablet) { width: 344px; }
+  @media(min-width: @mobile) and (max-width: @tablet) { width: 344px; }
 }
 
 .column-right {
   float: right; 
   width: 431px;
 
-  @media(max-width: @tablet) { width: 364px; }
+  @media(min-width: @mobile) and (max-width: @tablet) { width: 364px; }
 }
 
 @media(max-width: @mobile) {
@@ -98,7 +98,7 @@
 
     @media(max-width: @mobile) { line-height: 25px; }
 
-    @media(max-width: @tablet) { line-height: 25px; }
+    @media(min-width: @mobile) and (max-width: @tablet) { line-height: 25px; }
   }
 }
 
@@ -157,7 +157,7 @@
       max-width: 197px;
     }
 
-    @media(max-width: @tablet) {
+    @media(min-width: @mobile) and (max-width: @tablet) {
       margin: 13px auto;
       display: block;
       max-width: 197px;

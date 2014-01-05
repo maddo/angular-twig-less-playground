@@ -7,7 +7,7 @@
   img { 
     margin: -10px 6px 0 0;
     @media(max-width: @mobile) { float: none; }
-    @media(max-width: @tablet) { float: none; }
+    @media(min-width: @mobile) and (max-width: @tablet) { float: none; }
   }
 
   a {
@@ -35,7 +35,7 @@
     }
   }
 
-  @media(max-width: @tablet) {
+  @media(min-width: @mobile) and (max-width: @tablet) {
 
     p {
       float: none;
@@ -61,7 +61,7 @@
     text-align: center;
   }
 
-  @media(max-width: @tablet) {
+  @media(min-width: @mobile) and (max-width: @tablet) {
     float: none;
     margin: 0 auto;
     text-align: center;

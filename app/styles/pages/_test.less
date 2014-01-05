@@ -108,7 +108,7 @@
     height: auto;
   }
 
-  @media(max-width: @tablet) {
+  @media(min-width: @mobile) and (max-width: @tablet) {
     width: 320px;
     height: 320px;
   }
@@ -126,7 +126,7 @@
       .question-label { margin-bottom: 20px !important; }
     }
 
-    @media(max-width: @tablet) { width: 413px; }
+    @media(min-width: @mobile) and (max-width: @tablet) { width: 413px; }
   }
 
   .progress { margin-bottom: 30px; }

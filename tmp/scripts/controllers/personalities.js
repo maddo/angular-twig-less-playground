@@ -1,5 +1,5 @@
 'use strict';
-app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', '$resource', '$routeParams', 'analytics', function ($scope, $location, $rootScope, $resource, $routeParams, analytics) {
+app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', '$resource', '$routeParams', '$analytics', function ($scope, $location, $rootScope, $resource, $routeParams, $analytics) {
 
   var personality = $resource('/scripts/data/personalities.json', {}, {
     query: {method: 'GET', params: {}, isArray: false}
@@ -19,8 +19,11 @@ app.controller('PersonalitiesController', ['$scope', '$location', '$rootScope', 
         $scope.personality = tmpPersonality;
         $scope.currentPersonalityIndex = i;
 
-          //page title change
-          $rootScope.$emit('changeMeta', {type: tmpPersonality.type.toLowerCase(), url: tmpPersonality.url});
+        //page title change
+        $rootScope.$emit('changeMeta', {type: tmpPersonality.type.toLowerCase(), url: tmpPersonality.url});
+
+        //track page on GA
+        $analytics.pageTrack('/type/' + tmpPersonality.url);
 
         //set user's score to view
         //if user toke test

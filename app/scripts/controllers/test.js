@@ -1,5 +1,7 @@
 'use strict';
-app.controller('TestController', ['$scope', '$resource', '$location', '$rootScope', 'analytics', function ($scope, $resource, $location, $rootScope, analytics) {
+app.controller('TestController', ['$scope', '$resource', '$location', '$rootScope', '$analytics', function ($scope, $resource, $location, $rootScope, $analytics) {
+
+  $analytics.pageTrack('/test');
 
   $rootScope.$emit('changeMeta', 'defaults');
 

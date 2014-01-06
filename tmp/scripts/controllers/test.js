@@ -89,7 +89,7 @@ app.controller('TestController', ['$scope', '$resource', '$location', '$rootScop
 
     //...and who I am
     //by searching in personalities list
-    var personality = $resource('/scripts/personalities.json', {}, {
+    var personality = $resource('/scripts/data/personalities.json', {}, {
       query: {method: 'GET', params: {}, isArray: false}
     });
 

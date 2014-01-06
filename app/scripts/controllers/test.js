@@ -1,5 +1,5 @@
 'use strict';
-app.controller('TestController', ['$scope', '$resource', '$location', '$rootScope', function ($scope, $resource, $location, $rootScope) {
+app.controller('TestController', ['$scope', '$resource', '$location', '$rootScope', 'analytics', function ($scope, $resource, $location, $rootScope, analytics) {
 
   $rootScope.$emit('changeMeta', 'defaults');
 
